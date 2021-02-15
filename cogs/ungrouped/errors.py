@@ -36,6 +36,7 @@ class Errors(commands.Cog):
             #print(error)
 
         else:
+            await ctx.send(error)
             print(error)
 
         #if isinstance(error, commands.MissingRequiredArgument):

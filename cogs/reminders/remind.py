@@ -4,6 +4,8 @@ import datetime
 import pytz
 from time import sleep
 
+from modules import lists, time
+
 
 class Reminder(commands.Cog):
 
@@ -106,51 +108,28 @@ class Reminder(commands.Cog):
 
     @commands.command()
     async def time(self,ctx):
-        def get_curr_time():   
-            tz_NY = pytz.timezone('America/New_York') 
-
-            day_week = datetime.datetime.now().strftime('%a')
-        
-            hour = datetime.datetime.now(tz_NY).strftime('%I')
-            minute = datetime.datetime.now(tz_NY).strftime('%M')
-            suffix = datetime.datetime.now(tz_NY).strftime('%p')
-
-            curr_time = (f'{day_week} {hour}:{minute} {suffix}')
-        
-            return curr_time
-        
-        time = get_curr_time()
-        await ctx.channel.send(f'Current Time: {time}')
+        day = time.curr_time()[0]        
+        curr_time = time.curr_time()[1]
+        await ctx.channel.send(f'Current Time: {day} {curr_time}')
             
     @tasks.loop(seconds= 60)
     async def check(self):
         channel_id = 768896234810245141
         channel = self.client.get_channel(channel_id)
+        
+        list_reminders = lists.read('reminders')
 
-        async def check_time(curr_time,list):
-            if curr_time in list[place]:
-                await channel.send(list[place+1])
+        today_day = time.curr_time()[0]
+        curr_time = time.curr_time()[1]
 
-        reminders = open('./cogs/reminders/reminders.txt')
-        list_reminders = reminders.readlines()
-
-        # current time info
-        today_day = datetime.datetime.now().strftime('%a')
-        tz_NY = pytz.timezone('America/New_York') 
-        hour = datetime.datetime.now(tz_NY).strftime('%I')
-        minute = datetime.datetime.now(tz_NY).strftime('%M')
-        suffix = datetime.datetime.now(tz_NY).strftime('%p')
-
-        curr_time = (f'{hour}:{minute} {suffix}')
-
-        place = 0
-        for lines in list_reminders:
-            place += 1
-            if today_day in lines:
-                #print(place)
-                await check_time(curr_time,list_reminders)
-
-        #await ctx.channel.send(list_reminders[0])
+        #get the index of the list with todays date in it
+        events = lists.in_list('reminders',today_day)
+        if not events:
+            pass
+        else:
+            for index in events:
+                if curr_time in list_reminders[index+1]:
+                    await channel.send(list_reminders[index+2])
             
 
 

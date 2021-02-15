@@ -6,7 +6,7 @@ from itertools import cycle
 
 # defines the prefix for all commands
 client = commands.Bot(command_prefix = '$')
-status = cycle( ['Clone Wars', 'The Mandalorian', 'Porn', 'You'] )
+status_list = cycle( ['Clone Wars', 'The Mandalorian', 'You'] )
 
 # loads all folders within the cogs folder
 for folder in os.listdir('./cogs'):
@@ -26,12 +26,13 @@ async def on_ready():
     print('Bot is ready')
     await client.change_presence(activity=discord.Game(f'Bot Updated'))
     await client.wait_for('message')
-    change_status.start()
+    await client.change_presence(activity=discord.Activity(type = discord.ActivityType.watching, name = f'you, Wazowski. Always watching.') )
+    #change_status.start()
 
 @tasks.loop(seconds=10.0)
 async def change_status():
     #await client.change_presence(activity=discord.Game(f"""with {next(status)}'s heart""" ) )
-    await client.change_presence(activity=discord.Activity(type = discord.ActivityType.watching, name = f'{next(status)}') )
+    await client.change_presence(activity=discord.Activity(type = discord.ActivityType.watching, name = f'{next(status_list)}') )
     
     
 

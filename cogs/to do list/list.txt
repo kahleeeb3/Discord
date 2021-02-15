@@ -1,17 +1,2 @@
-===General===
-Call Doctor
-Fix resume
-Coffee and Careers
-===Overdue===
-PHY-220: Video
-PHY-314: 1.4-1.5
-===Monday===
-===Tuesday===
-===Wednesday===
-===Thursday===
-Lab 01
-Complex Quiz
-Homework 03 Corrections
-314 Daily Upload
-MAT-219: Daily
-===Friday===
+some new stuff
+some more stuff here
