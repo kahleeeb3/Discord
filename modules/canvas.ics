@@ -1909,7 +1909,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p><a href="https://wabash.zoom.us/j/983473051
  n Zoom Meeting:983 4730 5165</a></p>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20210214T170800Z
+DTSTAMP:20210216T121700Z
 UID:event-assignment-31295466
 DTSTART:20210208T170500Z
 DTEND:20210208T170500Z
@@ -2503,29 +2503,6 @@ X-ALT-DESC;FMTTYPE=text/html:<p>This homework MUST be submitted by 5:00 pm
  /p>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20210118T162000Z
-UID:event-assignment-30919174
-DTSTART:20210212T130000Z
-DTEND:20210212T130000Z
-CLASS:PUBLIC
-DESCRIPTION:[HW10.pdf] (https://wabash.instructure.com/courses/3148208/file
- s/195519076/download?wrap=1)\n\n[HW10Solutions.pdf] (https://wabash.instru
- cture.com/courses/3148208/files/195519077/download?wrap=1)
-SEQUENCE:0
-SUMMARY:HW10 [21/SP PHY-112-01D]
-URL:https://wabash.instructure.com/calendar?include_contexts=course_3148208
- &month=02&year=2021#assignment_30919174
-X-ALT-DESC;FMTTYPE=text/html:<p><a class="instructure_file_link instructure
- _scribd_file" title="HW10.pdf" href="https://wabash.instructure.com/course
- s/3148208/files/195519076/download?wrap=1" data-api-endpoint="https://waba
- sh.instructure.com/api/v1/courses/3148208/files/195519076" data-api-return
- type="File">HW10.pdf</a></p>\n<p><a class="instructure_file_link instructu
- re_scribd_file" title="HW10Solutions.pdf" href="https://wabash.instructure
- .com/courses/3148208/files/195519077/download?wrap=1" data-api-endpoint="h
- ttps://wabash.instructure.com/api/v1/courses/3148208/files/195519077" data
- -api-returntype="File">HW10Solutions.pdf</a></p>
-END:VEVENT
-BEGIN:VEVENT
 DTSTAMP:20210212T154100Z
 UID:event-assignment-30554979
 DTSTART:20210212T130000Z
@@ -2583,21 +2560,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>This warmup covers the reading assignment S
  ections 25.1-25.3</p>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20210118T162000Z
-UID:event-assignment-30919117
-DTSTART:20210212T130000Z
-DTEND:20210212T130000Z
-CLASS:PUBLIC
-DESCRIPTION:This warmup covers the reading assignment Sections 26.1-26.4.
-SEQUENCE:0
-SUMMARY:Warmup 11 [21/SP PHY-112-01D]
-URL:https://wabash.instructure.com/calendar?include_contexts=course_3148208
- &month=02&year=2021#assignment_30919117
-X-ALT-DESC;FMTTYPE=text/html:<p>This warmup covers the reading assignment S
- ections 26.1-26.4.</p>
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20210211T161100Z
+DTSTAMP:20210215T213400Z
 UID:event-assignment-30554928
 DTSTART:20210212T140000Z
 DTEND:20210212T140000Z
@@ -2846,7 +2809,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p><a class="instructure_file_link instructure
  -api-returntype="File">HW11Solutions.pdf</a></p>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20210212T140000Z
+DTSTAMP:20210215T151800Z
 UID:event-assignment-30555010
 DTSTART:20210215T130000Z
 DTEND:20210215T130000Z
@@ -2982,7 +2945,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p><span>The link below has the solutions for
  314 HW06 2021 Solutions with Mathematica Work.pdf</a> </p>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20210212T182500Z
+DTSTAMP:20210215T213900Z
 UID:event-assignment-30554933
 DTSTART:20210215T140000Z
 DTEND:20210215T140000Z
@@ -3235,15 +3198,30 @@ X-ALT-DESC;FMTTYPE=text/html:<p><a class="instructure_file_link instructure
  -api-returntype="File">HW12Solutions.pdf</a></p>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20210212T200400Z
+DTSTAMP:20210215T150000Z
 UID:event-assignment-30554981
 DTSTART:20210217T130000Z
 DTEND:20210217T130000Z
 CLASS:PUBLIC
+DESCRIPTION:Please carefully read and upload a brief outline of Section 3.1
+  Laplace's Equation in Griffiths' Introduction to Electrodynamics text pr
+ ior to 8:00 AM on Wednesday February 6.  Provide enough detail so that yo
+ u could give a 20 minute lecture on the topics in these sections\, using o
+ nly your notes if required.  Also\, please comment on areas that you feel
+  will cause students the most issues\, and include any questions that you 
+ personally would like answered.\n\n \n\n \n\n 
 SEQUENCE:0
 SUMMARY:Outline Section 3.1 [21/SP PHY-314-01]
 URL:https://wabash.instructure.com/calendar?include_contexts=course_3148216
  &month=02&year=2021#assignment_30554981
+X-ALT-DESC;FMTTYPE=text/html:<p>Please carefully read and upload a brief ou
+ tline of <strong>Section 3.1 Laplace's Equation </strong>in Griffiths' <e
+ m>Introduction to Electrodynamics</em> text prior to <strong>8:00 AM on We
+ dnesday February 6</strong>.  Provide enough detail so that you could giv
+ e a 20 minute lecture on the topics in these sections\, using only your no
+ tes if required.  Also\, please comment on areas that you feel will cause
+  students the most issues\, and include any questions that you personally 
+ would like answered.</p>\n<p> </p>\n<p> </p>\n<p> </p>
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20210121T151800Z
@@ -3291,26 +3269,63 @@ X-ALT-DESC;FMTTYPE=text/html:<p>This warmup covers the reading assignment S
  ections 27.1-27.3</p>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20210212T213700Z
+DTSTAMP:20210215T180000Z
 UID:event-assignment-30554932
 DTSTART:20210217T140000Z
 DTEND:20210217T140000Z
 CLASS:PUBLIC
+DESCRIPTION:The link below has the solutions for Homework Assignment 07 Sec
+ tion 2.4.  Use these to correct your homework per the syllabus and prior 
+ physics courses.  Corrected homework is due for upload at 9:00 AM Wednesd
+ ay\, February 17.\n\n[HW 07 Solutions.pdf] (https://app.box.com/embed_widg
+ et/s/10al4rj9r8rm5nbj3xyfgbg8j5z5x7fs?view=list&sort=name&direction=ASC&th
+ eme=dark) 
 SEQUENCE:0
 SUMMARY:HW Assignment 07 Section 2.4 Corrections [21/SP PHY-314-01]
 URL:https://wabash.instructure.com/calendar?include_contexts=course_3148216
  &month=02&year=2021#assignment_30554932
+X-ALT-DESC;FMTTYPE=text/html:<p><span>The link below has the solutions for 
+ Homework Assignment 07 Section 2.4.  Use these to correct your homework p
+ er the syllabus and prior physics courses.  Corrected homework is due for
+  upload at <strong>9:00 AM Wednesday\, February 17.</strong></span></p>\n<
+ p><a title="HW 07 Solutions.pdf" href="https://app.box.com/embed_widget/s/
+ 10al4rj9r8rm5nbj3xyfgbg8j5z5x7fs?view=list&amp\;sort=name&amp\;direction=A
+ SC&amp\;theme=dark" target="_blank">HW 07 Solutions.pdf</a> </p>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20210212T201200Z
+DTSTAMP:20210215T150000Z
 UID:event-assignment-31486218
 DTSTART:20210217T140000Z
 DTEND:20210217T140000Z
 CLASS:PUBLIC
+DESCRIPTION:Print out a copy of Homework 08 over Section 2.5 which contain
+ s 3 problems worth 40 pts.\n\n[] (https://wabash.instructure.com/courses/3
+ 148216/files/193827238/download?wrap=1)\n\n[HW_08.pdf] (https://app.box.co
+ m/embed_widget/s/wunl2jtwdv1i10p3uccl87oz0po2238p?view=list&sort=name&dire
+ ction=ASC&theme=dark)  \n\nUpload a .pdf of your solutions by 9:00 AM on
+  Monday February 15.  \n\nSolutions will be posted at 1:00 PM on Monda
+ y February 15.\n\nPaper copies of your original work and corrections are d
+ ue at the beginning of class on  Wednesday February 17.\n\n \n\n 
 SEQUENCE:0
 SUMMARY:HW Assignment 08 Section 2.5 [21/SP PHY-314-01]
 URL:https://wabash.instructure.com/calendar?include_contexts=course_3148216
  &month=02&year=2021#assignment_31486218
+X-ALT-DESC;FMTTYPE=text/html:<p>Print out a copy of Homework <span style="
+ font-size: 1rem\;">08</span><span style="font-size: 1rem\;"> over Section 
+ 2.5 which contains <strong>3 problems worth 40 pts</strong>.</span></p>\n<
+ p><a class="instructure_file_link instructure_scribd_file" title="HW_05.pd
+ f" href="https://wabash.instructure.com/courses/3148216/files/193827238/do
+ wnload?wrap=1" data-api-endpoint="https://wabash.instructure.com/api/v1/co
+ urses/3148216/files/193827238" data-api-returntype="File"></a></p>\n<p><a 
+ title="HW_08.pdf" href="https://app.box.com/embed_widget/s/wunl2jtwdv1i10p
+ 3uccl87oz0po2238p?view=list&amp\;sort=name&amp\;direction=ASC&amp\;theme=d
+ ark" target="_blank">HW_08.pdf</a>  </p>\n<p>Upload a .pdf of your soluti
+ ons by<span> </span><strong>9:00 AM on Monday February 15</strong>. <spa
+ n style="color: #ff0000\;"> </span></p>\n<p>Solutions will be posted at<s
+ pan> </span><strong>1:00 PM</strong><span> </span>on <strong>Monday Febr
+ uary 15</strong><span style="font-size: 1rem\;">.</span></p>\n<p>Paper cop
+ ies of your original work and corrections are due at the beginning of clas
+ s on <strong> Wednesday February 17.</strong></p>\n<p> </p>\n<p> </p>
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20210212T211400Z
@@ -3458,6 +3473,29 @@ URL:https://wabash.instructure.com/calendar?include_contexts=course_3148214
 X-ALT-DESC;FMTTYPE=text/html:
 END:VEVENT
 BEGIN:VEVENT
+DTSTAMP:20210215T131000Z
+UID:event-assignment-30919174
+DTSTART:20210219T130000Z
+DTEND:20210219T130000Z
+CLASS:PUBLIC
+DESCRIPTION:[HW10.pdf] (https://wabash.instructure.com/courses/3148208/file
+ s/199615866/download?wrap=1)\n\n[HW10Solutions.pdf] (https://wabash.instru
+ cture.com/courses/3148208/files/199615956/download?wrap=1)
+SEQUENCE:0
+SUMMARY:HW10 [21/SP PHY-112-01D]
+URL:https://wabash.instructure.com/calendar?include_contexts=course_3148208
+ &month=02&year=2021#assignment_30919174
+X-ALT-DESC;FMTTYPE=text/html:<p><a class="instructure_file_link instructure
+ _scribd_file" title="HW10.pdf" href="https://wabash.instructure.com/course
+ s/3148208/files/199615866/download?wrap=1" data-api-endpoint="https://waba
+ sh.instructure.com/api/v1/courses/3148208/files/199615866" data-api-return
+ type="File">HW10.pdf</a></p>\n<p><a class="instructure_file_link instructu
+ re_scribd_file" title="HW10Solutions.pdf" href="https://wabash.instructure
+ .com/courses/3148208/files/199615956/download?wrap=1" data-api-endpoint="h
+ ttps://wabash.instructure.com/api/v1/courses/3148208/files/199615956" data
+ -api-returntype="File">HW10Solutions.pdf</a></p>
+END:VEVENT
+BEGIN:VEVENT
 DTSTAMP:20210118T162000Z
 UID:event-assignment-30919177
 DTSTART:20210219T130000Z
@@ -3496,6 +3534,20 @@ URL:https://wabash.instructure.com/calendar?include_contexts=course_3148208
 X-ALT-DESC;FMTTYPE=text/html:<p><a href="https://wabash.zoom.us/j/987639144
  49?pwd=dHRaSjh2TElwLys0NVN3ellQcCtYQT09" target="_blank">Click here to joi
  n Zoom Meeting:987 6391 4449</a></p>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210215T130900Z
+UID:event-assignment-30919117
+DTSTART:20210219T130000Z
+DTEND:20210219T130000Z
+CLASS:PUBLIC
+DESCRIPTION:This warmup covers the reading assignment Sections 26.1-26.4.
+SEQUENCE:0
+SUMMARY:Warmup 11 [21/SP PHY-112-01D]
+URL:https://wabash.instructure.com/calendar?include_contexts=course_3148208
+ &month=02&year=2021#assignment_30919117
+X-ALT-DESC;FMTTYPE=text/html:<p>This warmup covers the reading assignment S
+ ections 26.1-26.4.</p>
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20210118T162000Z

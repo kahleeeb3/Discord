@@ -17,7 +17,7 @@ class ClassRoleReactions(commands.Cog):
         guild_id = payload.guild_id
         guild = self.client.get_guild(guild_id)
         # defines the channel this command runs in
-        role_channel_id = 768896224916668456
+        role_channel_id = 811501154230992926
 
         async def get_emoji_list():
             ross = await get_emoji('ross')
