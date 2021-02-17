@@ -2,15 +2,13 @@ Menu 1:
 Available Server Content
 🖥 : CSC Stuff
 
-🧑‍🤝‍🧑 : General Chat
+<:Will:690011172161978407> : General Chat
 
 😂 : Memes
 
 🐶 : Pet Photos
 
 🙌 : Join Commoners
-
-🗳  : Request Admin
 END OF LIST
 Menu 2:
 Classes for the Semester

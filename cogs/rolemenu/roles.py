@@ -3,8 +3,8 @@ from discord.ext import commands
 from modules import lists, menus
 
 correct_message_id = 811538917282807829
-emoji_list = ['🖥','😂','🐶','🙌','🗳']
-role_names = ["CSC Stuff", "Memes", "Pets"]
+emoji_list = ['🖥','Will','😂','🐶','🙌']
+role_names = ["CSC Stuff",'General', "Memes", "Pets",'Commoners']
 class_list = ['chad','excellent','ross','Spongetard','joe']
 class_names = ['Complex, Anal Si','Electronics','E&M','Theory of Programming Languages','Ad Lab']
 
