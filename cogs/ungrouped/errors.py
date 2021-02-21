@@ -9,7 +9,7 @@ class Errors(commands.Cog):
 
     @commands.Cog.listener()
     async def on_command_error(self, ctx, error):
-        #pass
+        """
         if( '$punish' in ctx.message.content):
             await ctx.send('`Usage: $punish <user> for <reason>`')
 
@@ -33,7 +33,6 @@ class Errors(commands.Cog):
 
         if("$remind" in ctx.message.content):
             await ctx.send('`Usage: $remind <new/edit/list>`')
-            #print(error)
 
         else:
             await ctx.send(error)
@@ -41,6 +40,8 @@ class Errors(commands.Cog):
 
         #if isinstance(error, commands.MissingRequiredArgument):
             #await ctx.send('please pass in all aquired arguments')
+        """
+        await ctx.send(error)
 
 
 def setup(client):

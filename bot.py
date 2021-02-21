@@ -4,8 +4,9 @@ import asyncio
 from discord.ext import commands, tasks
 from itertools import cycle
 
+intents = discord.Intents.all()
 # defines the prefix for all commands
-client = commands.Bot(command_prefix = '$')
+client = commands.Bot(command_prefix = '$', intents=intents)
 status_list = cycle( ['Clone Wars', 'The Mandalorian', 'You'] )
 
 # loads all folders within the cogs folder

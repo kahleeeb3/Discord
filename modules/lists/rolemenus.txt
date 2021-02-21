@@ -2,11 +2,15 @@ Menu 1:
 Available Server Content
 🖥 : CSC Stuff
 
-<:Will:690011172161978407> : General Chat
+🫂 : General Chat
 
 😂 : Memes
 
 🐶 : Pet Photos
+
+🎬 : Movies
+
+🎵 : Music
 
 🙌 : Join Commoners
 END OF LIST

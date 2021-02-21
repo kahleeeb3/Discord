@@ -3,15 +3,15 @@ from discord.ext import commands
 import random
 
 
-class Horny(commands.Cog):
+class SuperHorny(commands.Cog):
 
     def __init__(self, client):
         self.client = client
 
     # commands
 
-    @commands.command(aliases = ['h'])
-    async def horny(self, ctx, victim):
+    @commands.command(aliases= ['sh'] )
+    async def superhorny(self, ctx, victim):
         message = ctx.message
         guild = message.guild
 
@@ -21,7 +21,7 @@ class Horny(commands.Cog):
             # if role already exists:
             # return the role
             for roles in guild.roles:
-                if roles.name == 'Horny Ass':
+                if roles.name == 'Super Horny':
                     #print('Role exists already')
                     exists = True
                     role = roles
@@ -29,11 +29,11 @@ class Horny(commands.Cog):
             # If the role does not exist:
             # Create it!
             if (exists is False):
-                role = await guild.create_role(name = 'Horny Ass', hoist = True)
+                role = await guild.create_role(name = 'Super Horny', hoist = True)
                 all_roles = await guild.fetch_roles()
                 num_roles = len(all_roles)
                 #print(f'The server has {num_roles} roles')
-                await role.edit(reason = None, colour = 16711680, position = num_roles-2)
+                await role.edit(reason = None, colour = 16711897, position = num_roles-2)
                 #print('created new role')
 
             return role
@@ -50,15 +50,15 @@ class Horny(commands.Cog):
             async for x in message.guild.fetch_members(limit=100):
                 #print(x)
                 await x.add_roles(role)
-            await message.channel.send(f'You have been bad boys. Take it to #Horny-Soup')
+            await message.channel.send(f'You have been bad boys. Take it to <#768896248903368725>')
         # No:
         else:
             victim = message.mentions
             for x in victim:
                 await x.add_roles(role)
-                await message.channel.send(f'You have been a bad boy, {x.mention}. Take it to #Horny-Soup')
+                await message.channel.send(f'{x.mention} is down bad boys. Take him to the <#768896248903368725>')
 
 
 
 def setup(client):
-    client.add_cog(Horny(client))
+    client.add_cog(SuperHorny(client))
