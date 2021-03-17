@@ -2,25 +2,25 @@ from modules import drivers
 from time import sleep
 
 def read(file_name):
-    a_file = open(f'./modules/lists/{file_name}.txt', "r")
+    a_file = open(f'/home/pi/Desktop/Discord/modules/lists/{file_name}.txt', "r")
     list_of_lines = a_file.readlines()
     a_file.close()
     return list_of_lines
 
 def to_string(file_name):
-    a_file = open(f'./modules/lists/{file_name}.txt')
+    a_file = open(f'/home/pi/Desktop/Discord/modules/lists/{file_name}.txt')
     content = a_file.read()
     a_file.close()
     return content
 
 def edit(file_name,new_list):
     #make changes to text file
-    a_file = open(f'./modules/lists/{file_name}.txt', "w")
+    a_file = open(f'/home/pi/Desktop/Discord/modules/lists/{file_name}.txt', "w")
     a_file.write(new_list)
     a_file.close()
 
 def add(file_name,new_info):
-    a_file = open(f'./modules/lists/{file_name}.txt', "a")
+    a_file = open(f'/home/pi/Desktop/Discord/modules/lists/{file_name}.txt', "a")
     a_file.write(f'{new_info.content}\n')
     a_file.close()
 

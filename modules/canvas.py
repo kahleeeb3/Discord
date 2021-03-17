@@ -10,8 +10,8 @@ skip_class = {'PHY-112','PHY-ORG'}
 def get_file():
     url = 'https://wabash.instructure.com/feeds/calendars/user_8q6sNMVzdbiK1t3ruZyJkFCBH60Cvmi8738FKAHY.ics'
     r = requests.get(url, allow_redirects=True)
-    open('./modules/canvas.ics', 'wb').write(r.content)
-    g = open('./modules/canvas.ics','rb')
+    open('/home/pi/Desktop/Discord/modules/canvas.ics', 'wb').write(r.content)
+    g = open('/home/pi/Desktop/Discord/modules/canvas.ics','rb')
     gcal = Calendar.from_ical(g.read())
     g.close()
     return gcal

@@ -18,13 +18,13 @@ You can buy one of these great little I2C LCD on eBay or somewhere like [the Pi 
 
 * Run the automatic installation script with `sudo` permission
   ``` 
-  sudo ./install.sh
+  sudo /home/pi/Desktop/Discord/install.sh
   ```
 
 * After rebooting, try one of the [**demos**](#demos)
   ``` 
   cd /home/pi/lcd/
-  ./demo_clock.py
+  /home/pi/Desktop/Discord/demo_clock.py
   ```
 
 # Demos

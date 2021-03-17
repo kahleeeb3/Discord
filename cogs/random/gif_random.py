@@ -23,7 +23,7 @@ class GifRandom(commands.Cog):
     @commands.command()
     async def gifra(self, ctx, link):
         def add(file_name,new_info):
-            a_file = open(f'./modules/lists/{file_name}.txt', "a")
+            a_file = open(f'/home/pi/Desktop/Discord/modules/lists/{file_name}.txt', "a")
             a_file.write(f'{new_info}\n')
             a_file.close()
                

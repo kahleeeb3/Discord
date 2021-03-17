@@ -19,92 +19,48 @@ class Reminder(commands.Cog):
     @commands.command()
     async def remind(self,ctx,action):
             
-        if action == 'new':
-
-            async def get_days(menu):
-                await menu.edit(content = 'What days would you like this reminder to occur on?')
-                days = await self.client.wait_for('message')
-                await days.delete()
-                return days.content
-
-            async def get_time(menu):
-                await menu.edit(content = 'What time of day would you like to be reminded on?`Example: 01:30 PM`')
-                time = await self.client.wait_for('message')
-                await time.delete()
-                return time.content
-
-            async def get_message(menu):
-                await menu.edit(content = 'What would you like to be reminded of?')
-                message = await self.client.wait_for('message')
-                await message.delete()
-                return message.content
-
-            async def confirm(menu, days, time, message):
-                await menu.edit(content = 'Remind me to ' + message + ' on '+days+' at '+time + '\n is this correct? (Y/N)')
-                confirm = await self.client.wait_for('message')
-                if confirm.content == 'Y':
-                    await confirm.delete()
-                    correct(days, time, message)
-                    await menu.edit(content = 'Confirmed!')
-                    await menu.delete()
-                elif confirm.content == 'N':
-                    await confirm.delete()
-                    await change(menu, days, time, message)
-
-            async def change(menu, days, time, message):
-                await menu.edit(content = menu.content + '\nWhat would you like to change? (days/time/message)')
-                answer = await self.client.wait_for('message')
-                await answer.delete()
-                if answer.content == 'days':
-                    days = await get_days(menu)
-                elif answer.content == 'time':
-                    time = await get_time(menu)
-                elif answer.content == 'message':
-                    message = await get_message(menu)
-                await confirm(menu, days, time, message)
-
-            def correct(days, time, message):
-                my_file = open('./cogs/reminders/reminders.txt', 'a')
-                my_file.write('\n'+days)
-                my_file.write('\n'+time)
-                my_file.write('\n'+message+'\n')
-                my_file.close()
-
-            menu = await ctx.channel.send('Creating New Reminder...')
-            sleep(1)
-            days = await get_days(menu)
-            time = await get_time(menu)
-            message = await get_message(menu)
-            await confirm(menu, days, time, message)
-            action = 'list'
-            print(action)
-            
-        if action == 'edit':
-            reminders = open('./cogs/reminders/reminders.txt')
-            content = reminders.read()
-            await ctx.channel.send(content)
-            reminders.close()
-            await ctx.channel.send('**Which line would you like to edit? (Int)**')
-            choice = await self.client.wait_for('message')
-            selection = int(choice.content) - 1
-            #print(selection)
-
-            a_file = open('./cogs/reminders/reminders.txt', "r")
-            list_of_lines = a_file.readlines()
-            await ctx.send(f'{list_of_lines[selection]}')
-            await ctx.send(f'Input the updated info as shown above')
+        if action == 'add':
+            menu = await ctx.send(f'What would you like to add?')
             new_info = await self.client.wait_for('message')
-            list_of_lines[selection] = new_info.content + '\n'
-            await ctx.send('confirmed')
-            a_file = open('./cogs/reminders/reminders.txt', "w")
-            a_file.writelines(list_of_lines)
-            a_file.close()
+            await new_info.delete()
+            lists.add('reminders',new_info)
+            #reads new content of text file
+            content = lists.to_string('reminders')
+            #edits the menu
+            await menu.edit(content=content)
+   
+        if action == 'edit':
+            #send the current list
+            content = lists.to_string('reminders')
+            menu = await ctx.channel.send(f'{content}**Input text to replace:**')
+            #ask for input on the new list
+            new_list = await self.client.wait_for('message')
+            #make changes to text file
+            lists.edit('reminders',new_list.content)
+            await new_list.delete()
+            #reads new content of text file
+            content = lists.to_string('reminders')
+            #edits the menu
+            await menu.edit(content=content)
+
+        if action == 'delete':
+            #reads content of text file
+            content = lists.to_string('reminders')
+            #select item to delete
+            menu = await ctx.channel.send(content + '**Which line would you like to delete? (Int)**')
+            choice = await self.client.wait_for('message')
+            await choice.delete()
+            selection = int(choice.content) - 1
+            #edits the file
+            lists.delete('reminders',selection)
+            #reads new content of text file
+            content = lists.to_string('reminders')
+            #edits the menu
+            await menu.edit(content=content)
 
         if action == 'list':
-            reminders = open('./cogs/reminders/reminders.txt')
-            content = reminders.read()
-            await ctx.channel.send(content)
-            reminders.close()
+            content = lists.to_string('reminders')
+            await ctx.send(content)
 
     @commands.command()
     async def time(self,ctx):
