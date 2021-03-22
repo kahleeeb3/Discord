@@ -4,6 +4,10 @@ import os
 import asyncio
 from discord.ext import commands, tasks
 from itertools import cycle
+from time import sleep
+
+print('wait 15 seconds')
+sleep(15)
 
 intents = discord.Intents.all()
 # defines the prefix for all commands

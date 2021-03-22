@@ -9,6 +9,17 @@ class Kill(commands.Cog):
 
     @commands.command()
     async def off(self, ctx):
+        print(ctx.message.author.name)
+        if ctx.message.author.name == 'CalebP':
+            await ctx.channel.send(f'https://tenor.com/view/cry-sad-toy-story-woody-so-long-partner-gif-9797730')
+            exit()
+        else:
+            await ctx.channel.send(f'Shut the fuck up {ctx.message.author.name}, you dont have the authority for that.')
+
+    @commands.command()
+    async def restart(self, ctx):
+        import os
+        os.system("sudo reboot")
         exit()
         
 
