@@ -33,7 +33,7 @@ class SavePhoto(commands.Cog):
             filetype = pic.filename[-4:]
             url = pic.url
             r = requests.get(url, allow_redirects=True)
-            open(f'/home/pi/Desktop/Discord/Photos/{filename}{filetype}', 'wb').write(r.content)
+            open(f'/home/pi/Desktop/Discord/modules/Photos/{filename}{filetype}', 'wb').write(r.content)
             await message.add_reaction('✅')
 
         star = '⭐'
@@ -58,8 +58,8 @@ class SavePhoto(commands.Cog):
         await ctx.message.delete()
 
         import os, random
-        picture = random.choice(os.listdir('/home/pi/Desktop/Discord/Photos/')) #change dir name to whatever
-        await ctx.send(file=discord.File(f'/home/pi/Desktop/Discord/Photos/{picture}'))
+        picture = random.choice(os.listdir('/home/pi/Desktop/Discord/modules/Photos/')) #change dir name to whatever
+        await ctx.send(file=discord.File(f'/home/pi/Desktop/Discord/modules/Photos/{picture}'))
 
 def setup(client):
     client.add_cog(SavePhoto(client))
