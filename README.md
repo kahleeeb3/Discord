@@ -14,7 +14,7 @@ This folder is intended for files that will no be run and are just being saved f
 ## cogs:
 This folder contains a breakdown of each command into a sperate folder
 ## modules:
-This folder is where commonly used cogs is placed for importation into future code
+This folder is where commonly used cogs are placed for importation into future code
 
 The 'driver' folder contains the files for the LCD driver
 
@@ -64,7 +64,11 @@ client.run(open('/home/pi/Desktop/token.txt', "r").read())
 > *'Procfile', 'package.json', and 'requirements.txt'* are only needed for running the bot on *Heroku*
 
 ## Pushing to Github on Linux:
-
+if adding a new file:
+```
+git add -a
+```
+else:
 ```
 git commit -a
 git push
