@@ -6,179 +6,6 @@ METHOD:PUBLISH
 X-WR-CALNAME:Caleb Powell Calendar (Canvas)
 X-WR-CALDESC:Calendar events for the user\, Caleb Powell
 BEGIN:VEVENT
-DTSTAMP:20210222T001400Z
-UID:event-assignment-30554934
-DTSTART:20210219T140000Z
-DTEND:20210219T140000Z
-CLASS:PUBLIC
-DESCRIPTION:The link below has the solutions for Homework Assignment 08 Sec
- tion 2.5.  Use these to correct your homework per the syllabus and prior 
- physics courses.  Corrected homework is due in paper form at 9:00 AM Frid
- ay\, February 19.\n\n[HW 08 Solutions with Mathematica.pdf] (https://app.b
- ox.com/embed_widget/s/8qhkqmjf6ko8vjvqilsjlc3qxh1wbbsg?view=list&sort=name
- &direction=ASC&theme=dark) \n\nFor Problem 1\, I created a plot of E and 
- V using Mathematica for visualization purposes.  You were not expected to
-  do this on your homework - only Problem 3 asked you to plot in Mathematic
- a.
-SEQUENCE:0
-SUMMARY:HW Assignment 08 Section 2.5 Corrections [21/SP PHY-314-01]
-URL:https://wabash.instructure.com/calendar?include_contexts=course_3148216
- &month=02&year=2021#assignment_30554934
-X-ALT-DESC;FMTTYPE=text/html:<p><span>The link below has the solutions for 
- Homework Assignment 08 Section 2.5.&nbsp\; Use these to correct your homew
- ork per the syllabus and prior physics courses.&nbsp\; Corrected homework 
- is due in paper form at <strong>9:00 AM Friday\, February 19.</strong></sp
- an></p>\n<p><a title="HW 08 Solutions with Mathematica.pdf" href="https://
- app.box.com/embed_widget/s/8qhkqmjf6ko8vjvqilsjlc3qxh1wbbsg?view=list&amp\
- ;sort=name&amp\;direction=ASC&amp\;theme=dark" target="_blank">HW 08 Solut
- ions with Mathematica.pdf</a>&nbsp\;</p>\n<p>For Problem 1\, I created a p
- lot of E and V using Mathematica for visualization purposes.&nbsp\; You we
- re not expected to do this on your homework - only Problem 3 asked you to 
- plot in Mathematica.</p>
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20210219T190100Z
-UID:event-assignment-30554935
-DTSTART:20210219T140000Z
-DTEND:20210219T140000Z
-CLASS:PUBLIC
-DESCRIPTION:Print out a copy of Homework 09 over Section 3.1\, which cont
- ains 3 problems worth 30 pts.\n\n[] (https://wabash.instructure.com/course
- s/3148216/files/193827238/download?wrap=1)\n\n[HW_09.pdf] (https://app.box
- .com/embed_widget/s/crqr0bonoxrk5s30rzh2ejb2pblm7ygj?view=list&sort=name&d
- irection=ASC&theme=dark) \n\nUpload a .pdf of your solutions by 9:00 AM 
- on Friday\, February 19.  \n\nSolutions will be posted at 1:00 PM on F
- riday\, February 19.\n\nPaper copies of your original work and corrections
-  are due at the beginning of class on Wednesday February 24.\n\n 
-SEQUENCE:0
-SUMMARY:HW Assignment 09 Section 3.1 [21/SP PHY-314-01]
-URL:https://wabash.instructure.com/calendar?include_contexts=course_3148216
- &month=02&year=2021#assignment_30554935
-X-ALT-DESC;FMTTYPE=text/html:<p>Print out a copy of Homework&nbsp\;<span st
- yle="font-size: 1rem\;">09</span><span style="font-size: 1rem\;">&nbsp\;ov
- er Section 3.1\, which contains <strong>3 problems worth 30 pts</strong>.<
- /span></p>\n<p><a class="instructure_file_link instructure_scribd_file" ti
- tle="HW_05.pdf" href="https://wabash.instructure.com/courses/3148216/files
- /193827238/download?wrap=1" data-api-endpoint="https://wabash.instructure.
- com/api/v1/courses/3148216/files/193827238" data-api-returntype="File"></a
- ></p>\n<p><a title="HW_09.pdf" href="https://app.box.com/embed_widget/s/cr
- qr0bonoxrk5s30rzh2ejb2pblm7ygj?view=list&amp\;sort=name&amp\;direction=ASC
- &amp\;theme=dark" target="_blank">HW_09.pdf</a>&nbsp\;</p>\n<p>Upload a .p
- df of your solutions by<span>&nbsp\;</span><strong>9:00 AM on Friday\, Feb
- ruary 19</strong>.&nbsp\;<span style="color: #ff0000\;">&nbsp\;</span></p>
- \n<p>Solutions will be posted at<span>&nbsp\;</span><strong>1:00 PM</stron
- g><span>&nbsp\;</span>on <strong>Friday\, February 19</strong><span style=
- "font-size: 1rem\;">.</span></p>\n<p>Paper copies of your original work an
- d corrections are due at the beginning of class on <strong>Wednesday Febru
- ary 24.</strong></p>\n<p>&nbsp\;</p>
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20210219T133600Z
-UID:event-calendar-event-6148196
-DTSTART:20210219T140000Z
-DTEND:20210219T150000Z
-CLASS:PUBLIC
-DESCRIPTION:[Click here to join Zoom Meeting:951 1058 0241] (https://wabash
- .zoom.us/j/95110580241?pwd=WWhzcXEraWFBWE9sRnZUcTd5YkNxZz09)
-LOCATION:Zoom Online Meeting
-SEQUENCE:0
-SUMMARY:PHY-314 Class Friday February 19 [21/SP PHY-314-01]
-URL:https://wabash.instructure.com/calendar?include_contexts=course_3148216
- &month=02&year=2021#calendar_event_6148196
-X-ALT-DESC;FMTTYPE=text/html:<p><a href="https://wabash.zoom.us/j/951105802
- 41?pwd=WWhzcXEraWFBWE9sRnZUcTd5YkNxZz09" target="_blank">Click here to joi
- n Zoom Meeting:951 1058 0241</a></p>
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20210218T141100Z
-UID:event-assignment-31486987
-DTSTART:20210219T160000Z
-DTEND:20210219T160000Z
-CLASS:PUBLIC
-DESCRIPTION:Read pages 48-54 (Sections 3.6-3.9\n\nTry Problems Section 3.11
- : 11\, 13
-SEQUENCE:0
-SUMMARY:Daily Assignment: Induction  [21/SP MAT-219-01\, MAT-219-01D]
-URL:https://wabash.instructure.com/calendar?include_contexts=course_3148162
- &month=02&year=2021#assignment_31486987
-X-ALT-DESC;FMTTYPE=text/html:<p>Read pages 48-54 (Sections 3.6-3.9</p>\n<p>
- Try Problems Section 3.11: 11\, 13</p>
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20210124T213200Z
-UID:event-calendar-event-6064471
-DTSTART:20210219T161500Z
-DTEND:20210219T171500Z
-CLASS:PUBLIC
-DESCRIPTION:[Click here to join Zoom Meeting:983 4730 5165] (https://wabash
- .zoom.us/j/98347305165?pwd=ZHpPQTFwekIweVlabjZkUkNBajFwUT09)
-LOCATION:Zoom Online Meeting
-SEQUENCE:0
-SUMMARY:CSC-242-01 : Theory of Programming Language [21/SP CSC-242-01\, CSC
- -242-01D]
-URL:https://wabash.instructure.com/calendar?include_contexts=course_3148032
- &month=02&year=2021#calendar_event_6064471
-X-ALT-DESC;FMTTYPE=text/html:<p><a href="https://wabash.zoom.us/j/983473051
- 65?pwd=ZHpPQTFwekIweVlabjZkUkNBajFwUT09" target="_blank">Click here to joi
- n Zoom Meeting:983 4730 5165</a></p>
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20210224T032800Z
-UID:event-assignment-31488860
-DTSTART:20210219T161500Z
-DTEND:20210219T161500Z
-CLASS:PUBLIC
-DESCRIPTION:I can use let expressions in ML\n\nChapter 7
-SEQUENCE:0
-SUMMARY:M4 [21/SP CSC-242-01\, CSC-242-01D]
-URL:https://wabash.instructure.com/calendar?include_contexts=course_3148032
- &month=02&year=2021#assignment_31488860
-X-ALT-DESC;FMTTYPE=text/html:<p>I can use let expressions in ML</p>\n<p>Cha
- pter 7</p>
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20210205T180900Z
-UID:event-calendar-event-6123044
-DTSTART:20210219T181000Z
-DTEND:20210219T191000Z
-CLASS:PUBLIC
-DESCRIPTION:[Click here to join Zoom Meeting:962 1620 2502] (https://wabash
- .zoom.us/j/96216202502?pwd=eUFSQnB6cG9QWGZaZWF6em5YL2Z1UT09)
-LOCATION:Zoom Online Meeting
-SEQUENCE:0
-SUMMARY:MAT-219-01 : Combinatorics [21/SP MAT-219-01\, MAT-219-01D]
-URL:https://wabash.instructure.com/calendar?include_contexts=course_3148162
- &month=02&year=2021#calendar_event_6123044
-X-ALT-DESC;FMTTYPE=text/html:<p><a href="https://wabash.zoom.us/j/962162025
- 02?pwd=eUFSQnB6cG9QWGZaZWF6em5YL2Z1UT09" target="_blank">Click here to joi
- n Zoom Meeting:962 1620 2502</a></p>
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20210213T192600Z
-UID:event-assignment-31489369
-DTSTART:20210219T210000Z
-DTEND:20210219T210000Z
-CLASS:PUBLIC
-DESCRIPTION:See the comments on your submission for Challenge Problem Set 1
- \n\n[https://calendly.com/ansaldik/30min?month=2021-02 (Links to an exter
- nal site.)] (https://calendly.com/ansaldik/30min?month=2021-02)\n\nIf you 
- need to rewrite a problem you should submit the problem by rewriting it fr
- om scratch (not simply scribbling out your old work) or editing your typed
-  work and resubmitting a new version. 
-SEQUENCE:0
-SUMMARY:Challenge Problem 1 Revisions [21/SP MAT-219-01\, MAT-219-01D]
-URL:https://wabash.instructure.com/calendar?include_contexts=course_3148162
- &month=02&year=2021#assignment_31489369
-X-ALT-DESC;FMTTYPE=text/html:<p>See the comments on your submission for Cha
- llenge Problem Set 1</p>\n<p><a class="external" href="https://calendly.co
- m/ansaldik/30min?month=2021-02" target="_blank"><span>https://calendly.com
- /ansaldik/30min?month=2021-02</span><span class="screenreader-only">&nbsp\
- ;(Links to an external site.)</span></a></p>\n<p>If you need to rewrite a 
- problem you should submit the problem by rewriting it from scratch (not si
- mply scribbling out your old work) or editing your typed work and resubmit
- ting a new version.&nbsp\;</p>
-END:VEVENT
-BEGIN:VEVENT
 DTSTAMP:20210219T140000Z
 UID:event-assignment-30919174
 DTSTART:20210222T130000Z
@@ -4527,7 +4354,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p><a class="instructure_file_link instructure
  >
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20210319T114300Z
+DTSTAMP:20210322T120000Z
 UID:event-assignment-30919187
 DTSTART:20210324T120000Z
 DTEND:20210324T120000Z
@@ -4567,7 +4394,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p><a href="https://wabash.zoom.us/j/987639144
  n Zoom Meeting:987 6391 4449</a></p>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20210319T114200Z
+DTSTAMP:20210322T120000Z
 UID:event-assignment-30919115
 DTSTART:20210324T120000Z
 DTEND:20210324T120000Z

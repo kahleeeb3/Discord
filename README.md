@@ -1,5 +1,5 @@
 # Emma Watson
-This is a repository for my discord bot
+This is a repository for my discord bot. The original GitHub Repo was created 2020-10-25 20:49:50. Amen.
 
 ## Recycling_Bin:
 This folder is intended for files that will no be run and are just being saved for future reference
@@ -12,8 +12,11 @@ The 'driver' folder contains the files for the LCD driver
 
 The 'lists' folder is where .txt files are read/write to using the 'lists.py' module
 
-## bot.py:
-this is where the main code is ran
+## main.py:
+this is where the main code is run manually for the purpose of changes
+
+## selfboot.py:
+this code is set to run on boot
 
 ```python
 print('Starting Bot...')
