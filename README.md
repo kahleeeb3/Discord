@@ -1,6 +1,14 @@
 # Emma Watson
 This is a repository for my discord bot. The original GitHub Repo was created 2020-10-25 20:49:50. Amen.
 
+For this bot to work, the repository should be placed in the following directory:
+
+```
+cd /home/pi/desktop/Discord/
+```
+
+## boot:
+This folder contains the necissary files and instructions for booting the bot from startup on linux
 ## Recycling_Bin:
 This folder is intended for files that will no be run and are just being saved for future reference
 ## cogs:
@@ -60,4 +68,26 @@ client.run(open('/home/pi/Desktop/token.txt', "r").read())
 ```
 git commit -a
 git push
+```
+
+## Notes on linux terminal:
+
+Edit a file:
+```
+sudo nano <filename>
+```
+
+Make a directory:
+```
+mkdir <directory name>
+```
+
+Make a new file:
+```
+touch <filename>
+```
+
+Navigate to previous directory:
+```
+cd -
 ```
