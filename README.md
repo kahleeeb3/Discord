@@ -7,24 +7,18 @@ For this bot to work, the repository should be placed in the following directory
 cd /home/pi/desktop/Discord/
 ```
 
-## boot:
-This folder contains the necissary files and instructions for booting the bot from startup on linux
-## Recycling_Bin:
-This folder is intended for files that will no be run and are just being saved for future reference
-## cogs:
-This folder contains a breakdown of each command into a sperate folder
-## modules:
-This folder is where commonly used cogs are placed for importation into future code
-
-The 'driver' folder contains the files for the LCD driver
-
-The 'lists' folder is where .txt files are read/write to using the 'lists.py' module
-
 ## main.py:
-this is where the main code is run manually for the purpose of changes
-
+this is where the main code is run manually for the purpose of quick changes
 ## selfboot.py:
 this code is set to run on boot
+## boot:
+This folder contains the necissary files and instructions for booting the bot from startup on linux
+## cogs:
+This folder contains a breakdown of each command in a sperate folder
+## modules:
+This folder is where commonly used lines of code are placed for importation
+## Recycling_Bin:
+This folder is intended for files that will not be run and are just being saved for future reference
 
 ```python
 print('Starting Bot...')
@@ -59,39 +53,4 @@ async def on_ready():
  
 # place token code in the following directory
 client.run(open('/home/pi/Desktop/token.txt', "r").read())
-```
-
-> *'Procfile', 'package.json', and 'requirements.txt'* are only needed for running the bot on *Heroku*
-
-## Pushing to Github on Linux:
-if adding a new file:
-```
-git add -a
-```
-else:
-```
-git commit -a
-git push
-```
-
-## Notes on linux terminal:
-
-Edit a file:
-```
-sudo nano <filename>
-```
-
-Make a directory:
-```
-mkdir <directory name>
-```
-
-Make a new file:
-```
-touch <filename>
-```
-
-Navigate to previous directory:
-```
-cd -
 ```
