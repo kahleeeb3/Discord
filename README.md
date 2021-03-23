@@ -54,3 +54,10 @@ client.run(open('/home/pi/Desktop/token.txt', "r").read())
 ```
 
 > *'Procfile', 'package.json', and 'requirements.txt'* are only needed for running the bot on *Heroku*
+
+## Pushing to Github on Linux:
+
+```
+git commit -a
+git push
+```
