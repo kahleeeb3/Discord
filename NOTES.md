@@ -1,11 +1,11 @@
 ## Pushing to Github on Linux:
 if adding a new file:
 ```
-git add -a
+git add --all
 ```
 else:
 ```
-git commit -a
+git commit --all
 git push
 ```
 
