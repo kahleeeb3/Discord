@@ -7,7 +7,8 @@ from modules import lists, time
 
 
 class ToDo(commands.Cog):
-
+    """Shows and edit list of things to do"""
+    
     def __init__(self, client):
         self.client = client
 

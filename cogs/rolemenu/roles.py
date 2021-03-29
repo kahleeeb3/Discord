@@ -8,7 +8,8 @@ role_names = ["CSC Stuff",'General', "Memes", "Pets","Movies","Music",'Commoners
 class_list = ['chad','excellent','ross','Spongetard','joe']
 class_names = ['Complex, Anal Si','Electronics','E&M','Theory of Programming Languages','Ad Lab']
 
-class ClassRoleReactions(commands.Cog):
+class RoleReactions(commands.Cog):
+    """Sends the role menu to the chat"""
 
     def __init__(self, client):
         self.client = client
@@ -97,4 +98,4 @@ class ClassRoleReactions(commands.Cog):
                         pass
 
 def setup(client):
-    client.add_cog(ClassRoleReactions(client))
+    client.add_cog(RoleReactions(client))

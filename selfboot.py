@@ -12,6 +12,7 @@ sleep(15)
 intents = discord.Intents.all()
 # defines the prefix for all commands
 client = commands.Bot(command_prefix = '$', intents=intents)
+client.remove_command('help')
 status_list = cycle( ['Clone Wars', 'The Mandalorian', 'You'] )
 
 # loads all folders within the cogs folder

@@ -20,7 +20,8 @@ payload = {
     'logMeln':'1'
 }
 
-class TimePunch(commands.Cog):
+class TimeCard(commands.Cog):
+    """Clocks Caleb in and out of his WISE Job"""
 
     def __init__(self, client):
         self.client = client
@@ -34,6 +35,7 @@ class TimePunch(commands.Cog):
 
     @commands.command()
     async def ci(self,ctx,jobname):
+        """Clock in"""
 
         def check_job(name):
             if jobname in jobs:
@@ -57,6 +59,7 @@ class TimePunch(commands.Cog):
             
     @commands.command()
     async def co(self,ctx,jobname):
+        """Clock Out"""
 
         def check_job(name):
             if jobname in jobs:
@@ -105,4 +108,4 @@ class TimePunch(commands.Cog):
 
 
 def setup(client):
-    client.add_cog(TimePunch(client))
+    client.add_cog(TimeCard(client))

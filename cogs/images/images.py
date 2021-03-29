@@ -6,7 +6,8 @@ import tempfile
 import requests
 import os
 
-class SavePhoto(commands.Cog):
+class Photos(commands.Cog):
+    """Sends a randdom picture to the chat"""
 
     def __init__(self, client):
         self.client = client
@@ -62,4 +63,4 @@ class SavePhoto(commands.Cog):
         await ctx.send(file=discord.File(f'/home/pi/Desktop/Discord/modules/Photos/{picture}'))
 
 def setup(client):
-    client.add_cog(SavePhoto(client))
+    client.add_cog(Photos(client))

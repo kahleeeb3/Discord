@@ -8,6 +8,7 @@ from modules import lists, time
 
 
 class Reminder(commands.Cog):
+    """Show the Reminders"""
 
     def __init__(self, client):
         self.client = client

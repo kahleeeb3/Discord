@@ -10,9 +10,13 @@ git push
 ```
 
 ## Notes on linux terminal:
+Copy a file:
+```
+cp <source> <destination>
+```
 Rename Directory:
 ```
-mv dir1 dir2
+mv <dir1> <dir2>
 ```
 Delete Directory:
 ```

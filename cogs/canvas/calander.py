@@ -3,6 +3,7 @@ from discord.ext import commands, tasks
 from modules import canvas, time
 
 class Canvas(commands.Cog):
+    """Pulls canvas info for Caleb"""
 
     def __init__(self, client):
         self.client = client

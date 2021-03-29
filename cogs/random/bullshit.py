@@ -6,6 +6,7 @@ from modules import lists
 
 
 class Random(commands.Cog):
+    """A series of commands meant for random fun"""
 
     def __init__(self, client):
         self.client = client
