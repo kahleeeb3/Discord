@@ -4,7 +4,20 @@ This is a repository for my discord bot. The original GitHub Repo was created 20
 For this bot to work, the repository should be placed in the following directory:
 
 ```
-cd /home/pi/desktop/Discord/
+cd /home/pi/desktop/
+```
+## Setup (Linux Terminal on Raspberry Pi OS):
+```
+cd /home/pi/desktop
+git clone https://github.com/kahleeeb3/Discord.git
+python3 -m pip install -U discord.py
+pip3 install pytz
+pip3 install icalendar
+touch token.txt
+sudo nano token.txt
+<paste the token in here and then save>
+cd Discord
+python3 main.py
 ```
 
 ## main.py:

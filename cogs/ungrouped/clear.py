@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 
 
-class Clean(commands.Cog):
+class Random(commands.Cog):
 
     def __init__(self, client):
         self.client = client
@@ -18,4 +18,4 @@ class Clean(commands.Cog):
 
 
 def setup(client):
-    client.add_cog(Clean(client))
+    client.add_cog(Random(client))

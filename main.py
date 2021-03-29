@@ -13,6 +13,7 @@ import os
 # defines the prefix for all commands
 intents = discord.Intents.all()
 client = commands.Bot(command_prefix = '$', intents=intents)
+client.remove_command('help')
 
 
 # loads all folders within the cogs folder

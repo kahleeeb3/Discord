@@ -3,6 +3,7 @@ from discord.ext import commands
 
 
 class Kill(commands.Cog):
+    """Turns the bot off"""
 
     def __init__(self, client):
         self.client = client

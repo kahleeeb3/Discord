@@ -10,6 +10,14 @@ git push
 ```
 
 ## Notes on linux terminal:
+Rename Directory:
+```
+mv dir1 dir2
+```
+Delete Directory:
+```
+rm -r <directory name>
+```
 
 Edit a file:
 ```

@@ -4,6 +4,7 @@ import random
 
 
 class SuperHorny(commands.Cog):
+    """Labels a memeber horny in the chat""" 
 
     def __init__(self, client):
         self.client = client

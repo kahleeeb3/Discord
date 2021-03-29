@@ -3,7 +3,7 @@ from discord.ext import commands
 from discord import Spotify
 
 
-class Music(commands.Cog):
+class Random(commands.Cog):
 
     def __init__(self, client):
         self.client = client
@@ -21,4 +21,4 @@ class Music(commands.Cog):
 
 
 def setup(client):
-    client.add_cog(Music(client))
+    client.add_cog(Random(client))

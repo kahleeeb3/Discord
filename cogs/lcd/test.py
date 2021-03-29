@@ -13,7 +13,7 @@ class Display(commands.Cog):
 
     @commands.Cog.listener()
     async def on_message(self, message):
-        if 'Direct Message' in str(message.channel) and message.author.name != 'Emma Watson':
+        if 'Direct Message' in str(message.channel) and message.author.name == 'bailey':
             if '$' in message.content:
                 pass
             else:
