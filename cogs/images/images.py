@@ -40,6 +40,12 @@ class Picture(commands.Cog):
             r = requests.get(url, allow_redirects=True)
             open(f'/home/pi/Desktop/Discord/modules/Photos/{filename}{filetype}', 'wb').write(r.content)
             await message.add_reaction('✅')
+            # send Caleb a DM of who added the photo
+            user_id = payload.user_id
+            user = self.client.get_user(user_id)
+            caleb = self.client.get_user(487323172492935189)
+            channel = await caleb.create_dm()
+            await channel.send(f'{user.name} added a ⭐ to a file')
 
         star = '⭐'
         if payload.emoji.name == star:
