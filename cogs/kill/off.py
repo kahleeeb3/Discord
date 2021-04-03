@@ -14,61 +14,11 @@ class Kill(commands.Cog):
     @commands.command()
     async def t(self, ctx, *, command):
         """Run Terminal Commands"""
-
-        """
-        # Step 1: load in the data or create the file
-        try:
-            a_file = open("./cogs/kill/data_file.json", "r")
-            data = json.load(a_file)
-            a_file.close()
-        except:
-            data = {"commands":{}}
-            a_file = open("./cogs/kill/data_file.json", "w")
-            json.dump(data, a_file)
-            a_file.close()
-
-        # step 2 combine the commands
-        collection = ''
-        for item in data["commands"]:
-            if collection == '':
-                collection = data["commands"][item]
-            else:
-                collection = collection + '; '+ data["commands"][item]
-
-        collection = collection + '; '+ command
-        print(collection)
-        
-        # Step 2: See if the command worked
-        async def run():
-            try:
-                output = str(subprocess.check_output(collection, shell=True))
-                output = output.replace("b\'","").replace("\\n\'","").replace("\\n","\n")
-                await ctx.channel.send(f'`{output}`')
-                return True
-            except:
-                output = str(subprocess.check_output(collection, shell=True))
-                output = output.replace("b\'","").replace("\\n\'","").replace("\\n","\n")
-                await ctx.channel.send(f'`{output}`')
-                return False
-
-        if await run():
-            # Step 3: get new data
-            numCommands = len(data["commands"])
-            data["commands"][str(numCommands+1)] = command
-            # Step 4: Add the data
-            a_file = open("./cogs/kill/data_file.json", "w")
-            json.dump(data, a_file)
-            a_file.close()
-
-        if command == 'reset':
-            data["commands"] = {}
-            a_file = open("./cogs/kill/data_file.json", "w")
-            json.dump(data, a_file)
-            a_file.close()
-            await ctx.channel.send(f'Reset terminal')
-        """
         output = str(subprocess.check_output(command, shell=True))
-        output = output.replace("b\'","").replace("\\n\'","").replace("\\n","\n")
+        output = output.replace("b\'","").replace("\\n\'","").replace("\\n","\n")[0:2000]
+        if 'cat' in command:
+            output = output.replace('\\r','')
+            output = (f"```python\n{output}\n```").replace('\\','')
         await ctx.channel.send(f'{output}')
 
     @commands.command()
