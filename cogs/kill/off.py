@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands
 import os
+import subprocess
 
 
 class Kill(commands.Cog):
@@ -12,9 +13,9 @@ class Kill(commands.Cog):
     
     @commands.command()
     async def github(self, ctx):
-        os.system("cd /home/pi/Desktop/Discord;git add --all; git commit -a -m \"Automatic Update\";git push")
-        await ctx.channel.send('Uploaded to Github!')
-
+        command = "cd /home/pi/Desktop/Discord;git add --all; git commit -a -m \"Automatic Update\";git push"
+        output = subprocess.check_output(command, shell=True)
+        await ctx.channel.send(f'{output}')
 
     @commands.command()
     async def timeout(self, ctx, *max_time):
