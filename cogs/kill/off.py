@@ -12,9 +12,9 @@ class Kill(commands.Cog):
     
     @commands.command()
     async def github(self, ctx):
-        os.system("cd /home/pi/Desktop/Discord")
-        os.system("git add --all")
-        os.system("git commit --all")
+        os.system("cd /home/pi/Desktop/Discord;git add --all; git commit -a -m \"Automatic Update\";git push")
+        await ctx.channel.send('Uploaded to Github!')
+
 
     @commands.command()
     async def timeout(self, ctx, *max_time):
