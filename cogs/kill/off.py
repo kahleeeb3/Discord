@@ -15,7 +15,7 @@ class Kill(commands.Cog):
     async def github(self, ctx):
         command = "cd /home/pi/Desktop/Discord;git add --all; git commit -a -m \"Automatic Update\";git push"
         output = subprocess.check_output(command, shell=True)
-        await ctx.channel.send(f'{output}')
+        await ctx.channel.send(f'{output[0:2000]}')
 
     @commands.command()
     async def timeout(self, ctx, *max_time):
