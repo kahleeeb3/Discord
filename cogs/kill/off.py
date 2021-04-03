@@ -15,6 +15,7 @@ class Kill(commands.Cog):
     async def t(self, ctx, *, command):
         """Run Terminal Commands"""
 
+        """
         # Step 1: load in the data or create the file
         try:
             a_file = open("./cogs/kill/data_file.json", "r")
@@ -65,12 +66,18 @@ class Kill(commands.Cog):
             json.dump(data, a_file)
             a_file.close()
             await ctx.channel.send(f'Reset terminal')
+        """
+        output = str(subprocess.check_output(command, shell=True))
+        output = output.replace("b\'","").replace("\\n\'","").replace("\\n","\n")
+        await ctx.channel.send(f'`{output}`')
+
     @commands.command()
     async def github(self, ctx, *, message):
         """Pushes all the files to github repo"""
         command = f'cd /home/pi/Desktop/Discord; git add --all; git commit -a -m "{message}";git push'
-        output = subprocess.check_output(command, shell=True)
-        await ctx.channel.send(f'{output[0:2000]}')
+        output = str(subprocess.check_output(command, shell=True))
+        output = output.replace("b\'","").replace("\\n\'","").replace("\\n","\n")
+        await ctx.channel.send(f'`{output}`')
 
     @commands.command()
     async def timeout(self, ctx, *max_time):
