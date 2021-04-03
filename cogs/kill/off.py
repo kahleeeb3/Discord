@@ -15,7 +15,7 @@ class Kill(commands.Cog):
     async def github(self, ctx):
         """Pushes all the files to github repo"""
         #command = "cd /home/pi/Desktop/Discord;git add --all; git commit -a -m \"Automatic Update\";git push"
-        command = 'cd /home/pi/Desktop/Discord;git add --all; git commit --all --message = Automatic Update'
+        command = 'cd /home/pi/Desktop/Discord; git add -a; git commit -a -m "Automatic Update"'
         output = subprocess.check_output(command, shell=True)
         await ctx.channel.send(f'{output[0:2000]}')
 
