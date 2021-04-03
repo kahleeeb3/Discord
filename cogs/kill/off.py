@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+import os
 
 
 class Kill(commands.Cog):
@@ -9,6 +10,12 @@ class Kill(commands.Cog):
         self.client = client
 
     
+    @commands.command()
+    async def github(self, ctx):
+        os.system("cd /home/pi/Desktop/Discord")
+        os.system("git add --all")
+        os.system("git commit --all")
+
     @commands.command()
     async def timeout(self, ctx, *max_time):
         """Deletes all messages for a given period of time
