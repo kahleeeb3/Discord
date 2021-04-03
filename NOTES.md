@@ -10,6 +10,10 @@ git push
 ```
 
 ## Notes on linux terminal:
+Running commands from root user:
+```
+sudo -i
+```
 Copy a file:
 ```
 cp <source> <destination>
