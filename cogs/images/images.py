@@ -7,7 +7,7 @@ import requests
 import os
 
 
-class Photos(commands.Cog):
+class Picture(commands.Cog):
     """Sends a randdom picture to the chat"""
 
     def __init__(self, client):
@@ -19,6 +19,8 @@ class Photos(commands.Cog):
     @commands.Cog.listener()
     async def on_raw_reaction_add(self, payload):
 
+        # Specify the File Format
+        """
         async def check_file(files):
             for pics in files:
                 if pics.filename.endswith('.png'):
@@ -28,6 +30,7 @@ class Photos(commands.Cog):
                 else:
                     await channel.send('Error: Must be a PNG/JPG')
                     await message.add_reaction('❌')
+        """
 
         async def download_file(pic):
             filename = tempfile.NamedTemporaryFile().name
@@ -52,7 +55,9 @@ class Photos(commands.Cog):
                 #print('None')
                 await message.add_reaction('❌')
             else:
-                await check_file(files)
+                #await check_file(files)
+                for pic in files:
+                    await download_file(pic)
 
 
     @commands.command()
@@ -65,4 +70,4 @@ class Photos(commands.Cog):
         await ctx.send(file=discord.File(f'/home/pi/Desktop/Discord/modules/Photos/{picture}'))
 
 def setup(client):
-    client.add_cog(Photos(client))
+    client.add_cog(Picture(client))

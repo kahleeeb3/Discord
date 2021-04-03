@@ -41,7 +41,7 @@ class Errors(commands.Cog):
         #if isinstance(error, commands.MissingRequiredArgument):
             #await ctx.send('please pass in all aquired arguments')
         """
-        await ctx.send(error)
+        await ctx.send(f'Try using *$help* since you clearly dont know wtf you\'re doing \n`{error}`')
 
 
 def setup(client):

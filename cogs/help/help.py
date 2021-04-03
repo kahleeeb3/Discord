@@ -58,7 +58,6 @@ class Help(commands.Cog):
                 for command in self.bot.get_cog(cog).get_commands():
                     # check if cog is the matching one
                     if (command.name).lower() == input[0].lower():
-                        print('match')
                         # making title - getting description from doc-string below class
                         emb = discord.Embed(title='Usage', description=self.bot.cogs[cog].__doc__,
                                             color=discord.Color.green())

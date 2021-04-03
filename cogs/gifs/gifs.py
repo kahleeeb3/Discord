@@ -6,6 +6,7 @@ from modules import lists
 
 
 async def sendGif(self,ctx, link):
+    await ctx.message.delete()
     embed = discord.Embed()
     embed.set_author(name=f"{ctx.author.name}", icon_url=f"{ctx.author.avatar_url}")
     embed.set_image(url = link)
@@ -25,12 +26,12 @@ class Gifs(commands.Cog):
 
     @commands.command()
     async def no(self, ctx):
-        """Send the 'yes' gif"""
+        """Send the 'no' gif"""
         await sendGif(self, ctx, 'https://media2.giphy.com/media/W2zOnQonnYsNXnUxXo/giphy.gif')
 
     @commands.command()
     async def nice(self, ctx):
-        """Send the 'yes' gif"""
+        """Send the 'nice' gif"""
         await sendGif(self, ctx, 'https://thumbs.gfycat.com/CoordinatedEnergeticChipmunk-size_restricted.gif')
 
     @commands.command()
