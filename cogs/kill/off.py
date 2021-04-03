@@ -69,7 +69,7 @@ class Kill(commands.Cog):
         """
         output = str(subprocess.check_output(command, shell=True))
         output = output.replace("b\'","").replace("\\n\'","").replace("\\n","\n")
-        await ctx.channel.send(f'`{output}`')
+        await ctx.channel.send(f'{output}')
 
     @commands.command()
     async def github(self, ctx, *, message):
@@ -77,7 +77,7 @@ class Kill(commands.Cog):
         command = f'cd /home/pi/Desktop/Discord; git add --all; git commit -a -m "{message}";git push'
         output = str(subprocess.check_output(command, shell=True))
         output = output.replace("b\'","").replace("\\n\'","").replace("\\n","\n")
-        await ctx.channel.send(f'`{output}`')
+        await ctx.channel.send(f'{output}')
 
     @commands.command()
     async def timeout(self, ctx, *max_time):
