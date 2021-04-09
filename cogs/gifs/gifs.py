@@ -36,16 +36,14 @@ class Gifs(commands.Cog):
 
     @commands.command()
     async def gif(self, ctx):
-        await ctx.message.delete()
         await sendGif(self, ctx, 'https://media1.tenor.com/images/636ee91868d5b1602feed8e61afb62c0/tenor.gif?itemid=14720138')
 
     @commands.command()
     async def gifr(self, ctx):       
 
         gifs = lists.read('gifs')
-
-        await ctx.message.delete()
         await ctx.send(f'{random.choice(gifs)}')
+        #await sendGif(self, ctx,f'{random.choice(gifs)}')
 
     @commands.command()
     async def gifra(self, ctx, link):

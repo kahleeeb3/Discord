@@ -1,9 +1,6 @@
 import discord
 from discord.ext import commands
-from modules import time
 import json
-
-now = time.curr_time()
 
 
 async def send_count(ctx, person):
@@ -90,6 +87,8 @@ class Counter(commands.Cog):
                 
                 # Step 3: get new data
                 cases = data["member"][f'{person}']['cases']
+                from modules import time
+                now = time.curr_time()
                 day = now[0]
                 time = now[1]
                 date = now[2]
