@@ -67,7 +67,8 @@ class Reminder(commands.Cog):
     async def time(self,ctx):
         day = time.curr_time()[0]        
         curr_time = time.curr_time()[1]
-        await ctx.channel.send(f'Current Time: {day} {curr_time}')
+        date = time.curr_time()[2]
+        await ctx.channel.send(f'Current Time: {day} {date} {curr_time}')
             
     @tasks.loop(seconds= 60)
     async def check(self):
