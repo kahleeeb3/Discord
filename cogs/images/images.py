@@ -1,10 +1,11 @@
 import discord
-from discord.ext import commands
+from discord.ext import commands, tasks
 from modules import lists, menus,time
 import random
 import tempfile
 import requests
 import os
+from modules.json import json
 
 
 class Picture(commands.Cog):
@@ -12,25 +13,13 @@ class Picture(commands.Cog):
 
     def __init__(self, client):
         self.client = client
+        self.check.start()
 
     #channel_id = 785343273190555648
     #channel = self.client.get_channel(channel_id)
 
     @commands.Cog.listener()
     async def on_raw_reaction_add(self, payload):
-
-        # Specify the File Format
-        """
-        async def check_file(files):
-            for pics in files:
-                if pics.filename.endswith('.png'):
-                    await download_file(pics)
-                elif pics.filename.endswith('.jpg'):
-                    await download_file(pics)
-                else:
-                    await channel.send('Error: Must be a PNG/JPG')
-                    await message.add_reaction('❌')
-        """
 
         async def download_file(pic):
             filename = tempfile.NamedTemporaryFile().name
@@ -64,16 +53,42 @@ class Picture(commands.Cog):
                 #await check_file(files)
                 for pic in files:
                     await download_file(pic)
-
+        
 
     @commands.command()
     async def rpic(self, ctx):
-        await ctx.message.delete()
+        user = ctx.message.author.name
+        # get the current count
+        data = json.load('rpic')
+        try:
+            count = data["users"][user]["count"]
+        except:
+            data = {"users":{user:{"count": 0}}}
+            count = data["users"][user]["count"]
 
-        import os, random
-        picture = random.choice(os.listdir('/home/pi/Desktop/Discord/modules/Photos/')) #change dir name to whatever
+        if count < 5:
 
-        await ctx.send(file=discord.File(f'/home/pi/Desktop/Discord/modules/Photos/{picture}'))
+            await ctx.message.delete()
+
+            import os, quantumrandom
+            pictures = os.listdir('/home/pi/Desktop/Discord/modules/Photos/')
+            number = int(quantumrandom.randint(0, len(pictures)))
+            picture = pictures[number]
+            await ctx.send(file=discord.File(f'/home/pi/Desktop/Discord/modules/Photos/{picture}'))
+
+            #add 1 to the count
+            data["users"][user]["count"] = count + 1
+
+            # upload new data
+            json.edit('rpic',data)
+        
+        else:
+            await ctx.send('Please Stop.')
+
+    @tasks.loop(minutes = 3)
+    async def check(self):
+        print('reset')
+        json.edit('rpic',{})
 
 def setup(client):
     client.add_cog(Picture(client))

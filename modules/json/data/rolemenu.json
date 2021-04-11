@@ -1,0 +1,62 @@
+{
+    "correct_message_id":811657569515864124,
+    "menu":
+    {
+        "1":
+        {
+            "title":"General Access Role Menu",
+            "description" : "Available Server Content",
+            "roles":
+            {
+                "CSC Stuff":
+                {
+                    "emoji":"🖥",
+                    "id":768896179085377547
+                },
+                "General":
+                {
+                    "emoji":"🫂",
+                    "id":799480595154731073
+                },
+                "Memes":
+                {
+                    "emoji":"😂",
+                    "id":772900584906817547
+                },
+                "Pets":
+                {
+                    "emoji":"🐶",
+                    "id":779160055139401730
+                },
+                "Movies":
+                {
+                    "emoji":"🎬",
+                    "id":812768314601373738
+                },
+                "Music":
+                {
+                    "emoji":"🎵",
+                    "id":812768235874156624
+                },
+                "Commoners":
+                {
+                    "emoji":"🙌",
+                    "id":768896167089143872
+                }
+            }
+        },
+        "2":
+        {
+            "title":"Class Role Menu",
+            "description" : "Click to join a Class",
+            "roles":
+            {
+                "Complex":"chad",
+                "Electronics":"excellent",
+                "E&M":"ross",
+                "Theory of Programming Languages":"Spongetard",
+                "Ad Lab":"joe"
+            }
+        }
+    }
+}

@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands
 from modules import lists, menus
+from modules.json import json
 
 correct_message_id = 811657569515864124
 emoji_list = ['🖥','🫂','😂','🐶','🎬', '🎵', '🙌']
@@ -19,9 +20,16 @@ class RoleReactions(commands.Cog):
 
     @commands.command()
     async def rolemenu(self,ctx):
-        menu_content = lists.to_string('rolemenus')
-        menu_one = menu_content.split("END OF LIST")[0]
-        menu = await ctx.send(menu_one)
+        data = json.load('rolemenu')
+        title = data["menu"]["1"]["title"]
+        description = data["menu"]["1"]["description"]
+        embed = discord.Embed(title=f'{title}',description = description,color=discord.Color.red())
+
+        for role in data["menu"]["1"]["roles"]:
+            emoji = data["menu"]["1"]["roles"][role]["emoji"]
+            embed.add_field(name=f'{emoji}',value = f'{role}', inline=True)
+
+        menu = await ctx.send(embed=embed)
         await menus.add_right_arrow(menu)
 
     @commands.Cog.listener()
