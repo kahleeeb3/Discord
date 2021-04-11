@@ -29,10 +29,10 @@ class Kill(commands.Cog):
         output = output.replace("b\'","").replace("\\n\'","").replace("\\n","\n")[0:2000]
         await ctx.channel.send(f'{output}')
 
+    """
     @commands.command()
     async def timeout(self, ctx, *max_time):
-        """Deletes all messages for a given period of time
-        can pass in the amount of time as a variable `$timeout <time>`"""
+        #Deletes all messages for a given period of time can pass in the amount of time as a variable `$timeout <time>`
         import time
 
         if not max_time:
@@ -48,6 +48,7 @@ class Kill(commands.Cog):
             await thing.delete()
 
         await ctx.channel.send(f'Chat is enabled. Please be friends.')
+    """
     
     @commands.command()
     async def off(self, ctx):
