@@ -3,14 +3,6 @@ from discord.ext import commands
 from modules import lists, menus
 from modules.json import json
 
-"""
-"Complex": "chad",
-"Electronics": "excellent",
-"E&M": "ross",
-"Theory of Programming Languages": "Spongetard",
-"Ad Lab": "joe"
-"""
-
 class RoleReactions(commands.Cog):
     """Sends the role menu to the chat"""
 
@@ -35,92 +27,30 @@ class RoleReactions(commands.Cog):
         information = menus.get(payload)
         user = information['user']
         emoji= information['emoji']
+        message_id = information['message_id']
 
         # checks if input is from bot
         if user.bot:
             pass
         else:
-            #check if reaction is ◀ or ▶
-            if emoji.name == '▶':
-                await menus.flip_right(self.client, payload)
-            """
-            channel = self.client.get_channel(payload.channel_id)
-            msg = await channel.fetch_message(payload.message_id)
-            embed = msg.embeds[0]
-            print(embed.title[0])
-            """
-        """
-        # gives the user the role
-        async def give_role(user,role):
-            guild_id = payload.guild_id
-            guild = self.client.get_guild(guild_id)
-            role = discord.utils.get(guild.roles, name = role)
-            if role in user.roles:
-                await user.remove_roles(role)
-            else:
-                await user.add_roles(role)
-        
-        # Gets the information from reaction
-        information = menus.get(payload)
-        user = information['user']
-        emoji= information['emoji']
-
-        # checks if input is from bot
-        if user.bot:
-            pass
-        else:
-            if menus.match(information['message_id'], correct_message_id):
-                reaction = emoji
+            # checks if its from the correct message id
+            if menus.check_message_id(message_id):
                 #check if reaction is ◀ or ▶
-                if reaction.name == '▶':
+                if emoji.name == '▶':
                     await menus.flip_right(self.client, payload)
 
-            #check if the reaction should trigger a role adding
-                try:
-                    index = emoji_list.index(emoji.name)
-                    role = role_names[index]
-                    await give_role(user,role)
-                except:
-                    try:
-                        index = class_list.index(emoji.name)
-                        role = class_names[index]
-                        await give_role(user,role)
-                    except:
-                        pass
-
-    @commands.Cog.listener()
-    async def on_raw_reaction_remove(self, payload):
-
-        async def take_role(user,role):
-            guild_id = payload.guild_id
-            guild = self.client.get_guild(guild_id)
-            role = discord.utils.get(guild.roles, name = role)
-            await user.remove_roles(role)
-        
-
-        channel = self.client.get_channel(payload.channel_id)
-        message_id = payload.message_id
-        message = await channel.fetch_message(message_id)
-        user_id = payload.user_id
-        user = await message.guild.fetch_member(user_id)
-        emoji = payload.emoji
-
-        if user.bot:
-            pass
-        else:
-            if menus.match(message_id,correct_message_id):
-            #check if the reaction should trigger a role adding
-                try:
-                    index = emoji_list.index(emoji.name)
-                    role = role_names[index]
-                    await take_role(user,role)
-                except:
-                    try:
-                        index = class_list.index(emoji.name)
-                        role = class_names[index]
-                        await take_role(user,role)
-                    except:
-                        pass
-    """
+                else:
+                    # get the current menu number
+                    msg = await menus.get_msg(self.client, payload)
+                    menu_num = msg.embeds[0].title[0]
+                    # find the matching role
+                    role_id = menus.get_role_id(menu_num, emoji)
+                    role = msg.guild.get_role(role_id)
+                    if role in user.roles:
+                        await user.remove_roles(role)
+                    else:
+                        await user.add_roles(role)
+                        
+            
 def setup(client):
     client.add_cog(RoleReactions(client))

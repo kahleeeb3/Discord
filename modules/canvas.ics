@@ -6,212 +6,6 @@ METHOD:PUBLISH
 X-WR-CALNAME:Caleb Powell Calendar (Canvas)
 X-WR-CALDESC:Calendar events for the user\, Caleb Powell
 BEGIN:VEVENT
-DTSTAMP:20210322T181100Z
-UID:event-assignment-30554947
-DTSTART:20210312T140000Z
-DTEND:20210312T140000Z
-CLASS:PUBLIC
-DESCRIPTION:The link below has the solutions for Homework Assignment 15 Sec
- tion 4.1.   Use these to correct your homework per the syllabus and prio
- r physics courses.  Solutions were made available at 1:00 PM on Wednesday
- \, March 10.  Corrected homework is due for upload at 9:00 AM Friday\, Ma
- rch 12.\n\n[] (https://wabash.instructure.com/courses/3148216/files/193827
- 249/download?wrap=1)\n\n[PHY 314 Spring 2021 HW 15 Solutions.pdf] (https:/
- /app.box.com/embed_widget/s/c4kc61tt1cua616tpyviru36tppizpjv?view=list&sor
- t=name&direction=ASC&theme=dark) \n\n \n\n \n\n \n\n 
-SEQUENCE:0
-SUMMARY:HW Assignment 15 Section 4.1 Corrections [21/SP PHY-314-01]
-URL:https://wabash.instructure.com/calendar?include_contexts=course_3148216
- &month=03&year=2021#assignment_30554947
-X-ALT-DESC;FMTTYPE=text/html:<p><span>The link below has the solutions for 
- Homework Assignment 15 Section 4.1.&nbsp\; &nbsp\;Use these to correct you
- r homework per the syllabus and prior physics courses.&nbsp\; Solutions we
- re made available at 1:00 PM on Wednesday\, March 10.&nbsp\; Corrected hom
- ework is due for upload at <strong>9:00 AM Friday\, March 12.</strong></sp
- an></p>\n<p><a class="instructure_file_link instructure_scribd_file" title
- ="HW 10 Solutions.pdf" href="https://wabash.instructure.com/courses/314821
- 6/files/193827249/download?wrap=1" data-api-endpoint="https://wabash.instr
- ucture.com/api/v1/courses/3148216/files/193827249" data-api-returntype="Fi
- le"></a></p>\n<p><a title="PHY 314 Spring 2021 HW 15 Solutions.pdf" href="
- https://app.box.com/embed_widget/s/c4kc61tt1cua616tpyviru36tppizpjv?view=l
- ist&amp\;sort=name&amp\;direction=ASC&amp\;theme=dark" target="_blank">PHY
-  314 Spring 2021 HW 15 Solutions.pdf</a>&nbsp\;</p>\n<p>&nbsp\;</p>\n<p>&n
- bsp\;</p>\n<p>&nbsp\;</p>\n<p>&nbsp\;</p>
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20210312T203700Z
-UID:event-assignment-31692388
-DTSTART:20210312T140000Z
-DTEND:20210312T140000Z
-CLASS:PUBLIC
-DESCRIPTION:Print out a copy of Homework 16 over Section 4.2 which contains
-  2 problems worth 20 pts.\n\n[] (https://wabash.instructure.com/courses/31
- 48216/files/193827238/download?wrap=1)\n\n[HW_16.pdf] (https://app.box.com
- /embed_widget/s/ym56wfe7mq424rh09zcw43jy4tvlg0oh?view=list&sort=name&direc
- tion=ASC&theme=dark) \n\nUpload a .pdf of your solutions by 9:00 AM on F
- riday\, March 12. \n\nSolutions will be posted at 1:00 PM on Friday\, Mar
- ch 12.\n\nUploads of your original work and corrections are due at the beg
- inning of class on Monday\, March 15.\n\n \n\n \n\n \n\n 
-SEQUENCE:0
-SUMMARY:HW Assignment 16 Section 4.2 [21/SP PHY-314-01]
-URL:https://wabash.instructure.com/calendar?include_contexts=course_3148216
- &month=03&year=2021#assignment_31692388
-X-ALT-DESC;FMTTYPE=text/html:<p>Print out a copy of Homework 16 <span style
- ="font-size: 1rem\;">over Section 4.2 which contains <strong>2 problems wo
- rth 2</strong></span><strong style="font-size: 1rem\; font-family: inherit
- \;">0 pts</strong><span style="font-size: 1rem\; font-family: inherit\;">.
- </span></p>\n<p><a class="instructure_file_link instructure_scribd_file" t
- itle="HW_05.pdf" href="https://wabash.instructure.com/courses/3148216/file
- s/193827238/download?wrap=1" data-api-endpoint="https://wabash.instructure
- .com/api/v1/courses/3148216/files/193827238" data-api-returntype="File"></
- a></p>\n<p><a title="HW_16.pdf" href="https://app.box.com/embed_widget/s/y
- m56wfe7mq424rh09zcw43jy4tvlg0oh?view=list&amp\;sort=name&amp\;direction=AS
- C&amp\;theme=dark" target="_blank">HW_16.pdf</a>&nbsp\;</p>\n<p>Upload a .
- pdf of your solutions by<span>&nbsp\;</span><strong>9:00 AM on Friday\, Ma
- rch 12</strong>.&nbsp\;</p>\n<p>Solutions will be posted at<span> <strong>
- 1:00 PM </strong>on <strong>Friday\, March 12</strong></span><span style="
- font-size: 1rem\;">.</span></p>\n<p>Uploads of your original work and corr
- ections are due at the beginning of class on <strong>Monday\, March 15.</s
- trong></p>\n<p>&nbsp\;</p>\n<p>&nbsp\;</p>\n<p>&nbsp\;</p>\n<p>&nbsp\;</p>
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20210312T014800Z
-UID:event-assignment-31677600
-DTSTART:20210312T160000Z
-DTEND:20210312T160000Z
-CLASS:PUBLIC
-DESCRIPTION:https://rellek.net/book/s_graphs_exercises.html \n\nSection 5.
- 9: 9\, 12\, 33 (skip planar for now)
-SEQUENCE:0
-SUMMARY:Daily Assignment: Hamiltonian [21/SP MAT-219-01\, MAT-219-01D]
-URL:https://wabash.instructure.com/calendar?include_contexts=course_3148162
- &month=03&year=2021#assignment_31677600
-X-ALT-DESC;FMTTYPE=text/html:<p><a href="https://rellek.net/book/s_graphs_e
- xercises.html" target="_blank">https://rellek.net/book/s_graphs_exercises.
- html</a>&nbsp\;</p>\n<p>Section 5.9: 9\, 12\, 33 (skip planar for now)</p>
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20210124T213200Z
-UID:event-calendar-event-6064481
-DTSTART:20210312T161500Z
-DTEND:20210312T171500Z
-CLASS:PUBLIC
-DESCRIPTION:[Click here to join Zoom Meeting:983 4730 5165] (https://wabash
- .zoom.us/j/98347305165?pwd=ZHpPQTFwekIweVlabjZkUkNBajFwUT09)
-LOCATION:Zoom Online Meeting
-SEQUENCE:0
-SUMMARY:CSC-242-01 : Theory of Programming Language [21/SP CSC-242-01\, CSC
- -242-01D]
-URL:https://wabash.instructure.com/calendar?include_contexts=course_3148032
- &month=03&year=2021#calendar_event_6064481
-X-ALT-DESC;FMTTYPE=text/html:<p><a href="https://wabash.zoom.us/j/983473051
- 65?pwd=ZHpPQTFwekIweVlabjZkUkNBajFwUT09" target="_blank">Click here to joi
- n Zoom Meeting:983 4730 5165</a></p>
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20210317T133900Z
-UID:event-assignment-31295468
-DTSTART:20210312T170500Z
-DTEND:20210312T170500Z
-CLASS:PUBLIC
-DESCRIPTION:You should come take the exam in class if possible\, but if not
- \, take the exam as follows:\n\n1. At the beginning of class\, download th
- e exam: [CSC 242 Spring 2021 exam 3.pdf] (https://app.box.com/embed_widget
- /s/tw3rqvmagouo9vrvgzr6rsfxt8umxg8a?view=list&sort=name&direction=ASC&them
- e=dark) \n\n2. Print it if you want\, or do the work on your own paper. 
-  Either way\, be sure to submit them in the order they are assigned!\n\n3.
-  Scan the exam (in the correct order) and convert it to a PDF.  Do not ju
- st take a picture.  That is hard to read.  Use one of the many scanner a
- pps.  I have used CamScanner\, TinyScanner\, and Adobe Scan\, but there a
- re many more.  You can also scan it from the copiers in the library or ar
- ound campus and email it to yourself to then upload here.  If I cannot re
- ad what you write\, you cannot demonstrate mastery.\n\n4. Upload it here b
- y the end of your allotted time.\n\nRemember\, the Gentlemen's Rule is in 
- effect.  Your goal is to convince me you understand the learning targets\
- , and I may ask you to talk to me (in person or via Zoom) if I have questi
- ons.  Take your time.  Check your work.  Ensure it is all clear and con
- vincing.
-SEQUENCE:0
-SUMMARY:Mastery Opportunity III [21/SP CSC-242-01\, CSC-242-01D]
-URL:https://wabash.instructure.com/calendar?include_contexts=course_3148032
- &month=03&year=2021#assignment_31295468
-X-ALT-DESC;FMTTYPE=text/html:<p>You should come take the exam in class if p
- ossible\, but if not\, take the exam as follows:</p>\n<p>1. At the beginni
- ng of class\, download the exam: <a title="CSC 242 Spring 2021 exam 3.pdf"
-  href="https://app.box.com/embed_widget/s/tw3rqvmagouo9vrvgzr6rsfxt8umxg8a
- ?view=list&amp\;sort=name&amp\;direction=ASC&amp\;theme=dark" target="_bla
- nk">CSC 242 Spring 2021 exam 3.pdf</a>&nbsp\;</p>\n<p>2. Print it if you w
- ant\, or do the work on your own paper.&nbsp\; Either way\, be sure to sub
- mit them in the order they are assigned!</p>\n<p>3. Scan the exam (in the 
- correct order) and convert it to a PDF.&nbsp\; Do not just take a picture.
- &nbsp\; That is hard to read.&nbsp\; Use one of the many scanner apps.&nbs
- p\; I have used CamScanner\, TinyScanner\, and Adobe Scan\, but there are 
- many more.&nbsp\; You can also scan it from the copiers in the library or 
- around campus and email it to yourself to then upload here.&nbsp\; If I ca
- nnot read what you write\, you cannot demonstrate mastery.</p>\n<p>4. Uplo
- ad it here by the end of your allotted time.</p>\n<p>Remember\, the Gentle
- men's Rule is in effect.&nbsp\; Your goal is to convince me you understand
-  the learning targets\, and I may ask you to talk to me (in person or via 
- Zoom) if I have questions.&nbsp\; Take your time.&nbsp\; Check your work.&
- nbsp\; Ensure it is all clear and convincing.</p>
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20210205T180900Z
-UID:event-calendar-event-6123053
-DTSTART:20210312T181000Z
-DTEND:20210312T191000Z
-CLASS:PUBLIC
-DESCRIPTION:[Click here to join Zoom Meeting:962 1620 2502] (https://wabash
- .zoom.us/j/96216202502?pwd=eUFSQnB6cG9QWGZaZWF6em5YL2Z1UT09)
-LOCATION:Zoom Online Meeting
-SEQUENCE:0
-SUMMARY:MAT-219-01 : Combinatorics [21/SP MAT-219-01\, MAT-219-01D]
-URL:https://wabash.instructure.com/calendar?include_contexts=course_3148162
- &month=03&year=2021#calendar_event_6123053
-X-ALT-DESC;FMTTYPE=text/html:<p><a href="https://wabash.zoom.us/j/962162025
- 02?pwd=eUFSQnB6cG9QWGZaZWF6em5YL2Z1UT09" target="_blank">Click here to joi
- n Zoom Meeting:962 1620 2502</a></p>
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20210312T204100Z
-UID:event-assignment-31677109
-DTSTART:20210312T220000Z
-DTEND:20210312T220000Z
-CLASS:PUBLIC
-DESCRIPTION:[ChallengeProblems4] (https://wabash.instructure.com/courses/31
- 48162/assignments/31577456) \n\nSee comments on your submitted assignment
- . Ask me for help if you're stuck.  Don't simply cross out wrong parts of
-  your proof but start from scratch
-SEQUENCE:0
-SUMMARY:Challenge Problem 4 Revisions [21/SP MAT-219-01\, MAT-219-01D]
-URL:https://wabash.instructure.com/calendar?include_contexts=course_3148162
- &month=03&year=2021#assignment_31677109
-X-ALT-DESC;FMTTYPE=text/html:<p><a title="ChallengeProblems4" href="https:/
- /wabash.instructure.com/courses/3148162/assignments/31577456" data-api-end
- point="https://wabash.instructure.com/api/v1/courses/3148162/assignments/3
- 1577456" data-api-returntype="Assignment">ChallengeProblems4</a>&nbsp\;</p
- >\n<p>See comments on your submitted assignment. Ask me for help if you're
-  stuck.&nbsp\; Don't simply cross out wrong parts of your proof but start 
- from scratch</p>
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20210304T032400Z
-UID:event-assignment-31185607
-DTSTART;VALUE=DATE:20210312T000000
-DTEND;VALUE=DATE:20210312T000000
-CLASS:PUBLIC
-DESCRIPTION:In PDF: [Lab4.pdf] (https://wabash.instructure.com/courses/3148
- 214/files/201422932?wrap=1) 
-SEQUENCE:0
-SUMMARY:Lab 04 [21/SP PHY-220-01]
-URL:https://wabash.instructure.com/calendar?include_contexts=course_3148214
- &month=03&year=2021#assignment_31185607
-X-ALT-DESC;FMTTYPE=text/html:<p>In PDF: <a class="instructure_file_link ins
- tructure_scribd_file" title="Lab4.pdf" href="https://wabash.instructure.co
- m/courses/3148214/files/201422932?wrap=1" target="_blank">Lab4.pdf</a>&nbs
- p\;</p>
-END:VEVENT
-BEGIN:VEVENT
 DTSTAMP:20210312T153800Z
 UID:event-assignment-30919182
 DTSTART:20210315T120000Z
@@ -4267,7 +4061,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Locate three resources related to your Ardu
  ch.</p>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20210408T204700Z
+DTSTAMP:20210412T120000Z
 UID:event-assignment-30919194
 DTSTART:20210414T120000Z
 DTEND:20210414T120000Z
@@ -4337,7 +4131,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p><a href="https://wabash.zoom.us/j/987639144
  n Zoom Meeting:987 6391 4449</a></p>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20210408T204600Z
+DTSTAMP:20210412T120000Z
 UID:event-assignment-30919131
 DTSTART:20210414T120000Z
 DTEND:20210414T120000Z
@@ -4349,20 +4143,6 @@ URL:https://wabash.instructure.com/calendar?include_contexts=course_3148208
  &month=04&year=2021#assignment_30919131
 X-ALT-DESC;FMTTYPE=text/html:<p>This warmup covers the reading assignment S
  ections 31.5-31.7.</p>
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20210118T162000Z
-UID:event-assignment-30919138
-DTSTART:20210414T120000Z
-DTEND:20210414T120000Z
-CLASS:PUBLIC
-DESCRIPTION:This warmup covers the reading assignment Sections 17.1-17.4.
-SEQUENCE:0
-SUMMARY:Warmup 31 [21/SP PHY-112-01D]
-URL:https://wabash.instructure.com/calendar?include_contexts=course_3148208
- &month=04&year=2021#assignment_30919138
-X-ALT-DESC;FMTTYPE=text/html:<p><span>This warmup covers the reading&nbsp\;
- assignment Sections 17.1-17.4.</span></p>
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20210124T213200Z
@@ -4564,26 +4344,26 @@ X-ALT-DESC;FMTTYPE=text/html:<p>In PDF: <a class="instructure_file_link ins
  HW14.pdf</a>&nbsp\;</p>\n<p>&nbsp\;</p>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20210118T162000Z
+DTSTAMP:20210412T111200Z
 UID:event-assignment-30919195
 DTSTART:20210416T120000Z
 DTEND:20210416T120000Z
 CLASS:PUBLIC
 DESCRIPTION:[HW31.pdf] (https://wabash.instructure.com/courses/3148208/file
- s/195519132/download?wrap=1)\n\n[HW31Solutions.pdf] (https://wabash.instru
- cture.com/courses/3148208/files/195519133/download?wrap=1)
+ s/205361926/download?wrap=1)\n\n[HW31Solutions.pdf] (https://wabash.instru
+ cture.com/courses/3148208/files/205361927/download?wrap=1)
 SEQUENCE:0
 SUMMARY:HW31 [21/SP PHY-112-01D]
 URL:https://wabash.instructure.com/calendar?include_contexts=course_3148208
  &month=04&year=2021#assignment_30919195
 X-ALT-DESC;FMTTYPE=text/html:<p><a class="instructure_file_link instructure
  _scribd_file" title="HW31.pdf" href="https://wabash.instructure.com/course
- s/3148208/files/195519132/download?wrap=1" data-api-endpoint="https://waba
- sh.instructure.com/api/v1/courses/3148208/files/195519132" data-api-return
+ s/3148208/files/205361926/download?wrap=1" data-api-endpoint="https://waba
+ sh.instructure.com/api/v1/courses/3148208/files/205361926" data-api-return
  type="File">HW31.pdf</a></p>\n<p><a class="instructure_file_link instructu
  re_scribd_file" title="HW31Solutions.pdf" href="https://wabash.instructure
- .com/courses/3148208/files/195519133/download?wrap=1" data-api-endpoint="h
- ttps://wabash.instructure.com/api/v1/courses/3148208/files/195519133" data
+ .com/courses/3148208/files/205361927/download?wrap=1" data-api-endpoint="h
+ ttps://wabash.instructure.com/api/v1/courses/3148208/files/205361927" data
  -api-returntype="File">HW31Solutions.pdf</a></p>
 END:VEVENT
 BEGIN:VEVENT
@@ -4653,6 +4433,20 @@ URL:https://wabash.instructure.com/calendar?include_contexts=course_3148208
  &month=04&year=2021#assignment_30919120
 X-ALT-DESC;FMTTYPE=text/html:<p>This warmup covers the reading assignment S
  ections <span>17.5-17.6\, 33.8.</span></p>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210412T111100Z
+UID:event-assignment-30919138
+DTSTART:20210416T120000Z
+DTEND:20210416T120000Z
+CLASS:PUBLIC
+DESCRIPTION:This warmup covers the reading assignment Sections 17.1-17.4.
+SEQUENCE:0
+SUMMARY:Warmup 32 [21/SP PHY-112-01D]
+URL:https://wabash.instructure.com/calendar?include_contexts=course_3148208
+ &month=04&year=2021#assignment_30919138
+X-ALT-DESC;FMTTYPE=text/html:<p><span>This warmup covers the reading&nbsp\;
+ assignment Sections 17.1-17.4.</span></p>
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20210124T213200Z

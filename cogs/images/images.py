@@ -87,7 +87,7 @@ class Picture(commands.Cog):
 
     @tasks.loop(minutes = 3)
     async def check(self):
-        print('reset')
+        #print('reset')
         json.edit('rpic',{})
 
 def setup(client):

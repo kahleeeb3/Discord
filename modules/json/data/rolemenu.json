@@ -1,5 +1,5 @@
 {
-    "message_id": 830980982906683423,
+    "message_id": 831214149529894982,
     "menu": {
         "1": {
             "title": "1. General",
@@ -29,51 +29,39 @@
                     "emoji": "\ud83c\udfb5",
                     "id": 812768235874156624
                 },
+                "Will's Quotes": {
+                    "emoji": "<:Will:690011172161978407>",
+                    "id": 831214866735824926
+                },
                 "Commoners": {
                     "emoji": "\ud83d\ude4c",
                     "id": 768896167089143872
                 }
             }
         },
-        "2":{
+        "2": {
             "title": "2. Classes",
             "description": "Click to join a Class",
-            "roles": 
-            {
-                "Complex": 
-                {
-                    "emoji": "<:Chad:701591511053369374>",
-                    "id": 768896179085377547
-                },
-                "Electronics": 
-                {
-                    "emoji": "<:BrownExcellent:690005655389601811>",
-                    "id": 768896179085377547
-                },
-                "E&M": 
-                {
-                    "emoji": "<:Ross:779772331542183976>",
-                    "id": 768896179085377547
-                },
-                "Programming": 
-                {
-                    "emoji": "<:Spongetard:701588656086974504>",
-                    "id": 768896179085377547
-                },
-                "Ad Lab": 
-                {
-                    "emoji": "<:joe:690005988060954638>",
-                    "id": 768896179085377547
-                }
-            }
-        },
-        "3": {
-            "title": "3. Title Here",
-            "description": "This a description",
             "roles": {
-                "Role name": {
-                    "emoji": "\ud83d\udda5",
-                    "id": 768896179085377547
+                "Complex": {
+                    "emoji": "<:Chad:701591511053369374>",
+                    "id": 768896176530522123
+                },
+                "Electronics": {
+                    "emoji": "<:BrownExcellent:690005655389601811>",
+                    "id": 768896177378295848
+                },
+                "E&M": {
+                    "emoji": "<:Ross:779772331542183976>",
+                    "id": 768896175495184475
+                },
+                "Programming": {
+                    "emoji": "<:Spongetard:701588656086974504>",
+                    "id": 768896178447843408
+                },
+                "Ad Lab": {
+                    "emoji": "<:joe:690005988060954638>",
+                    "id": 779786334722064404
                 }
             }
         }

@@ -3,8 +3,6 @@ from modules import lists
 from modules.json import json
 
 
-#correct_message_id = data["message_id"]
-
 def get_embed(number:int):
     # loads in the data
     data = json.load('rolemenu')
@@ -32,10 +30,15 @@ def change_id(message_id):
     data["message_id"] = message_id
     json.edit('rolemenu',data)
 
-async def flip_right(bot,payload):
+async def get_msg(bot,payload):
     # get menu number
     channel = bot.get_channel(payload.channel_id)
     msg = await channel.fetch_message(payload.message_id)
+    return msg
+
+async def flip_right(bot,payload):
+    # get menu number
+    msg = await get_msg(bot, payload)
     embed = msg.embeds[0]
     current = int(embed.title[0])
     try:
@@ -48,21 +51,25 @@ async def flip_right(bot,payload):
     await msg.edit(embed = embed2)
     await add_emojis(msg, current)
 
-"""These are all old"""
 def get(payload):
     user = payload.member
     message_id = payload.message_id
     emoji = payload.emoji
     return {'user': user,'message_id': message_id, 'emoji': emoji}
 
-def match(a,b):
-    if a==b:
+def check_message_id(message_id):
+# checks if the reaction was added to the role menu
+    # loads in the data
+    data = json.load('rolemenu')
+    correct_message_id = data["message_id"]
+    if message_id == correct_message_id:
         return True
     else:
         return False
 
-async def add_right_arrow(menu):
-    await menu.add_reaction('▶')
-
-async def remove_right_arrow(menu):
-    await menu.remove_reaction('▶')
+def get_role_id(menu_num, reaction):
+# returns the role id for the given reaction
+    data = json.load('rolemenu')
+    for role in data["menu"][f"{menu_num}"]["roles"]:
+        if reaction.name in data["menu"][f"{menu_num}"]["roles"][f"{role}"]["emoji"]:
+            return data["menu"][f"{menu_num}"]["roles"][f"{role}"]["id"]
