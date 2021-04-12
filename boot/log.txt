@@ -1,2 +1,0 @@
-To https://github.com/kahleeeb3/Discord.git
-   b96e3b7..22a09ed  main -> main

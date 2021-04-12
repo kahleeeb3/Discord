@@ -3,11 +3,13 @@ from discord.ext import commands
 from modules import lists, menus
 from modules.json import json
 
-correct_message_id = 811657569515864124
-emoji_list = ['🖥','🫂','😂','🐶','🎬', '🎵', '🙌']
-role_names = ["CSC Stuff",'General', "Memes", "Pets","Movies","Music",'Commoners']
-class_list = ['chad','excellent','ross','Spongetard','joe']
-class_names = ['Complex, Anal Si','Electronics','E&M','Theory of Programming Languages','Ad Lab']
+"""
+"Complex": "chad",
+"Electronics": "excellent",
+"E&M": "ross",
+"Theory of Programming Languages": "Spongetard",
+"Ad Lab": "joe"
+"""
 
 class RoleReactions(commands.Cog):
     """Sends the role menu to the chat"""
@@ -15,26 +17,40 @@ class RoleReactions(commands.Cog):
     def __init__(self, client):
         self.client = client
 
-    #channel_id = 785343273190555648
-    #channel = self.client.get_channel(channel_id)
-
     @commands.command()
     async def rolemenu(self,ctx):
-        data = json.load('rolemenu')
-        title = data["menu"]["1"]["title"]
-        description = data["menu"]["1"]["description"]
-        embed = discord.Embed(title=f'{title}',description = description,color=discord.Color.red())
-
-        for role in data["menu"]["1"]["roles"]:
-            emoji = data["menu"]["1"]["roles"][role]["emoji"]
-            embed.add_field(name=f'{emoji}',value = f'{role}', inline=True)
-
+        # creates the embed
+        embed = menus.get_embed(1)
         menu = await ctx.send(embed=embed)
-        await menus.add_right_arrow(menu)
+        # add the reactions
+        await menus.add_emojis(menu, 1)
+        # change the role menu id
+        menus.change_id(menu.id)
+
 
     @commands.Cog.listener()
     async def on_raw_reaction_add(self, payload):
 
+        # Gets the information from reaction
+        information = menus.get(payload)
+        user = information['user']
+        emoji= information['emoji']
+
+        # checks if input is from bot
+        if user.bot:
+            pass
+        else:
+            #check if reaction is ◀ or ▶
+            if emoji.name == '▶':
+                await menus.flip_right(self.client, payload)
+            """
+            channel = self.client.get_channel(payload.channel_id)
+            msg = await channel.fetch_message(payload.message_id)
+            embed = msg.embeds[0]
+            print(embed.title[0])
+            """
+        """
+        # gives the user the role
         async def give_role(user,role):
             guild_id = payload.guild_id
             guild = self.client.get_guild(guild_id)
@@ -44,10 +60,12 @@ class RoleReactions(commands.Cog):
             else:
                 await user.add_roles(role)
         
-
+        # Gets the information from reaction
         information = menus.get(payload)
         user = information['user']
         emoji= information['emoji']
+
+        # checks if input is from bot
         if user.bot:
             pass
         else:
@@ -56,7 +74,6 @@ class RoleReactions(commands.Cog):
                 #check if reaction is ◀ or ▶
                 if reaction.name == '▶':
                     await menus.flip_right(self.client, payload)
-
 
             #check if the reaction should trigger a role adding
                 try:
@@ -104,6 +121,6 @@ class RoleReactions(commands.Cog):
                         await take_role(user,role)
                     except:
                         pass
-
+    """
 def setup(client):
     client.add_cog(RoleReactions(client))

@@ -1,61 +1,80 @@
 {
-    "correct_message_id":811657569515864124,
-    "menu":
-    {
-        "1":
-        {
-            "title":"General Access Role Menu",
-            "description" : "Available Server Content",
-            "roles":
-            {
-                "CSC Stuff":
-                {
-                    "emoji":"🖥",
-                    "id":768896179085377547
+    "message_id": 830980982906683423,
+    "menu": {
+        "1": {
+            "title": "1. General",
+            "description": "Available Server Content",
+            "roles": {
+                "CSC Stuff": {
+                    "emoji": "\ud83d\udda5",
+                    "id": 768896179085377547
                 },
-                "General":
-                {
-                    "emoji":"🫂",
-                    "id":799480595154731073
+                "General": {
+                    "emoji": "\ud83e\udec2",
+                    "id": 799480595154731073
                 },
-                "Memes":
-                {
-                    "emoji":"😂",
-                    "id":772900584906817547
+                "Memes": {
+                    "emoji": "\ud83d\ude02",
+                    "id": 772900584906817547
                 },
-                "Pets":
-                {
-                    "emoji":"🐶",
-                    "id":779160055139401730
+                "Pets": {
+                    "emoji": "\ud83d\udc36",
+                    "id": 779160055139401730
                 },
-                "Movies":
-                {
-                    "emoji":"🎬",
-                    "id":812768314601373738
+                "Movies": {
+                    "emoji": "\ud83c\udfac",
+                    "id": 812768314601373738
                 },
-                "Music":
-                {
-                    "emoji":"🎵",
-                    "id":812768235874156624
+                "Music": {
+                    "emoji": "\ud83c\udfb5",
+                    "id": 812768235874156624
                 },
-                "Commoners":
-                {
-                    "emoji":"🙌",
-                    "id":768896167089143872
+                "Commoners": {
+                    "emoji": "\ud83d\ude4c",
+                    "id": 768896167089143872
                 }
             }
         },
-        "2":
-        {
-            "title":"Class Role Menu",
-            "description" : "Click to join a Class",
-            "roles":
+        "2":{
+            "title": "2. Classes",
+            "description": "Click to join a Class",
+            "roles": 
             {
-                "Complex":"chad",
-                "Electronics":"excellent",
-                "E&M":"ross",
-                "Theory of Programming Languages":"Spongetard",
-                "Ad Lab":"joe"
+                "Complex": 
+                {
+                    "emoji": "<:Chad:701591511053369374>",
+                    "id": 768896179085377547
+                },
+                "Electronics": 
+                {
+                    "emoji": "<:BrownExcellent:690005655389601811>",
+                    "id": 768896179085377547
+                },
+                "E&M": 
+                {
+                    "emoji": "<:Ross:779772331542183976>",
+                    "id": 768896179085377547
+                },
+                "Programming": 
+                {
+                    "emoji": "<:Spongetard:701588656086974504>",
+                    "id": 768896179085377547
+                },
+                "Ad Lab": 
+                {
+                    "emoji": "<:joe:690005988060954638>",
+                    "id": 768896179085377547
+                }
+            }
+        },
+        "3": {
+            "title": "3. Title Here",
+            "description": "This a description",
+            "roles": {
+                "Role name": {
+                    "emoji": "\ud83d\udda5",
+                    "id": 768896179085377547
+                }
             }
         }
     }
