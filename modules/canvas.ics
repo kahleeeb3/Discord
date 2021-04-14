@@ -3038,7 +3038,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p><a class="instructure_file_link instructure
  ="_blank">Lab10-ProjectSelection.pdf</a>&nbsp\;</p>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20210404T214200Z
+DTSTAMP:20210412T191700Z
 UID:event-assignment-31185595
 DTSTART;VALUE=DATE:20210406T000000
 DTEND;VALUE=DATE:20210406T000000
@@ -3394,7 +3394,7 @@ X-ALT-DESC;FMTTYPE=text/html:<a href="https://wabash.instructure.com/">Cour
  se</a>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20210404T214300Z
+DTSTAMP:20210412T191700Z
 UID:event-assignment-31185596
 DTSTART;VALUE=DATE:20210408T000000
 DTEND;VALUE=DATE:20210408T000000
@@ -3739,28 +3739,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p><a class="instructure_file_link instructure
  n.pdf</a>&nbsp\;</p>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20210409T120000Z
-UID:event-assignment-30919193
-DTSTART:20210412T120000Z
-DTEND:20210412T120000Z
-CLASS:PUBLIC
-DESCRIPTION:[HW29.pdf] (https://wabash.instructure.com/courses/3148208/file
- s/204881355?wrap=1) \n\n[HW29Solutions.pdf] (https://wabash.instructure.c
- om/courses/3148208/files/204881356?wrap=1) 
-SEQUENCE:0
-SUMMARY:HW29 [21/SP PHY-112-01D]
-URL:https://wabash.instructure.com/calendar?include_contexts=course_3148208
- &month=04&year=2021#assignment_30919193
-X-ALT-DESC;FMTTYPE=text/html:<p><a class="instructure_file_link instructure
- _scribd_file inline_disabled" title="HW29.pdf" href="https://wabash.instru
- cture.com/courses/3148208/files/204881355?wrap=1" target="_blank">HW29.pdf
- </a>&nbsp\;</p>\n<p><a class="instructure_file_link instructure_scribd_fil
- e inline_disabled" title="HW29Solutions.pdf" href="https://wabash.instruct
- ure.com/courses/3148208/files/204881356?wrap=1" target="_blank">HW29Soluti
- ons.pdf</a>&nbsp\;</p>
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20210409T142600Z
+DTSTAMP:20210412T140900Z
 UID:event-assignment-32056740
 DTSTART:20210412T120000Z
 DTEND:20210412T120000Z
@@ -3818,7 +3797,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p>This warmup covers the reading assignment S
  ections <span>16.6-16.9.</span></p>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20210409T171000Z
+DTSTAMP:20210412T211300Z
 UID:event-assignment-32043713
 DTSTART:20210412T130000Z
 DTEND:20210412T130000Z
@@ -3856,7 +3835,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p><span>The link below has the solutions for
  <p>&nbsp\;</p>\n<p>&nbsp\;</p>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20210405T180200Z
+DTSTAMP:20210412T172000Z
 UID:event-assignment-32014223
 DTSTART:20210412T130000Z
 DTEND:20210412T130000Z
@@ -3891,6 +3870,23 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Print out a copy of Homework 26 <span style
  ections are due at the beginning of class on <strong>Wednesday\, April 14.
  </strong></p>\n<p>&nbsp\;</p>\n<p>&nbsp\;</p>\n<p>&nbsp\;</p>\n<p>&nbsp\;<
  /p>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210412T123900Z
+UID:event-calendar-event-6263464
+DTSTART:20210412T130000Z
+DTEND:20210412T140000Z
+CLASS:PUBLIC
+DESCRIPTION:[Click here to join Zoom Meeting:989 8033 5136] (https://wabash
+ .zoom.us/j/98980335136?pwd=ZFFyNWNNUTlFQWZka1ZJM1ZVSFgvQT09)
+LOCATION:Zoom Online Meeting
+SEQUENCE:0
+SUMMARY:Zoom for PHY 314 Monday April 12 [21/SP PHY-314-01]
+URL:https://wabash.instructure.com/calendar?include_contexts=course_3148216
+ &month=04&year=2021#calendar_event_6263464
+X-ALT-DESC;FMTTYPE=text/html:<p><a href="https://wabash.zoom.us/j/989803351
+ 36?pwd=ZFFyNWNNUTlFQWZka1ZJM1ZVSFgvQT09" target="_blank">Click here to joi
+ n Zoom Meeting:989 8033 5136</a></p>
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20210408T005600Z
@@ -4012,7 +4008,7 @@ X-ALT-DESC;FMTTYPE=text/html:<p><a class="instructure_file_link instructure
  arget="_blank">Lab11-ProjectDataCollection.pdf</a>&nbsp\;</p>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20210404T221000Z
+DTSTAMP:20210412T191800Z
 UID:event-assignment-31185597
 DTSTART;VALUE=DATE:20210413T000000
 DTEND;VALUE=DATE:20210413T000000
@@ -4061,6 +4057,27 @@ X-ALT-DESC;FMTTYPE=text/html:<p>Locate three resources related to your Ardu
  ch.</p>
 END:VEVENT
 BEGIN:VEVENT
+DTSTAMP:20210412T224000Z
+UID:event-assignment-30919193
+DTSTART:20210414T120000Z
+DTEND:20210414T120000Z
+CLASS:PUBLIC
+DESCRIPTION:[HW29.pdf] (https://wabash.instructure.com/courses/3148208/file
+ s/204881355?wrap=1) \n\n[HW29Solutions.pdf] (https://wabash.instructure.c
+ om/courses/3148208/files/204881356?wrap=1) 
+SEQUENCE:0
+SUMMARY:HW29-Corrections [21/SP PHY-112-01D]
+URL:https://wabash.instructure.com/calendar?include_contexts=course_3148208
+ &month=04&year=2021#assignment_30919193
+X-ALT-DESC;FMTTYPE=text/html:<p><a class="instructure_file_link instructure
+ _scribd_file inline_disabled" title="HW29.pdf" href="https://wabash.instru
+ cture.com/courses/3148208/files/204881355?wrap=1" target="_blank">HW29.pdf
+ </a>&nbsp\;</p>\n<p><a class="instructure_file_link instructure_scribd_fil
+ e inline_disabled" title="HW29Solutions.pdf" href="https://wabash.instruct
+ ure.com/courses/3148208/files/204881356?wrap=1" target="_blank">HW29Soluti
+ ons.pdf</a>&nbsp\;</p>
+END:VEVENT
+BEGIN:VEVENT
 DTSTAMP:20210412T120000Z
 UID:event-assignment-30919194
 DTSTART:20210414T120000Z
@@ -4080,38 +4097,6 @@ X-ALT-DESC;FMTTYPE=text/html:<p><a class="instructure_file_link instructure
  e inline_disabled" title="HW30Solutions.pdf" href="https://wabash.instruct
  ure.com/courses/3148208/files/205071133?wrap=1" target="_blank">HW30Soluti
  ons.pdf</a>&nbsp\;</p>
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20210409T182600Z
-UID:event-assignment-30555002
-DTSTART:20210414T120000Z
-DTEND:20210414T120000Z
-CLASS:PUBLIC
-DESCRIPTION:Please carefully read and upload a brief outline of Section 7.2
- .1 - 7.2.2  Electromagnetic Induction in Griffiths' Introduction to Elect
- rodynamics text prior to 8:00 AM on Wednesday\, April 14. \n\n \n\nCaleb
-  and Joey will be leading the discussion of the material on Wednesday.  W
- hile they have primary responsibility for the class\, everyone needs to co
- me prepared to fully participate.  Discussion leaders will be given 30 po
- ints for their class presentations plus the standard 10 points for their o
- utline\, while everyone else will be awarded the usual 10 points for uploa
- ding an outine of the day's reading assignment.\n\n \n\n 
-SEQUENCE:0
-SUMMARY:Outline Section 7.2.1 - 7.2.2 - Presentation by Caleb and Joey [21/
- SP PHY-314-01]
-URL:https://wabash.instructure.com/calendar?include_contexts=course_3148216
- &month=04&year=2021#assignment_30555002
-X-ALT-DESC;FMTTYPE=text/html:<p>Please carefully read and upload a brief ou
- tline of <strong>Section 7.2.1 - 7.2.2&nbsp\; Electromagnetic Induction </
- strong>in Griffiths' <em>Introduction to Electrodynamics</em> text prior t
- o <strong>8:00 AM on Wednesday\, April 14</strong>.&nbsp\;</p>\n<p>&nbsp\;
- </p>\n<p><strong>Caleb and Joey</strong> will be leading the discussion of
-  the material on Wednesday.&nbsp\; While they have primary responsibility 
- for the class\, <em>everyone</em> needs to come prepared to fully particip
- ate.&nbsp\; Discussion leaders will be given 30 points for their class pre
- sentations plus the standard 10 points for their outline\, while everyone 
- else will be awarded the usual 10 points for uploading an outine of the da
- y's reading assignment.</p>\n<p>&nbsp\;</p>\n<p>&nbsp\;</p>
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20210121T151800Z
@@ -4143,6 +4128,55 @@ URL:https://wabash.instructure.com/calendar?include_contexts=course_3148208
  &month=04&year=2021#assignment_30919131
 X-ALT-DESC;FMTTYPE=text/html:<p>This warmup covers the reading assignment S
  ections 31.5-31.7.</p>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210412T210100Z
+UID:event-assignment-32077567
+DTSTART:20210414T130000Z
+DTEND:20210414T130000Z
+CLASS:PUBLIC
+DESCRIPTION:The link below has the solutions for Homework Assignment 26 Sec
+ tion 6.4.   Use these to correct your homework per the syllabus and prio
+ r physics courses.  Solutions were made available at 1:10 PM on Monday\, 
+ April 12.  Corrected homework is due for upload at 9:00 AM Wednesday\, Ap
+ ril 14.\n\n[] (https://wabash.instructure.com/courses/3148216/files/193827
+ 249/download?wrap=1)\n\n[PHY 314 Spring 2021 HW 26 Solutions.pdf] (https:/
+ /app.box.com/embed_widget/s/zbius0z1em3gdaj01s4iip9bnbb4rewx?view=list&sor
+ t=name&direction=ASC&theme=dark) \n\n \n\n 
+SEQUENCE:0
+SUMMARY:HW Assignment 26 Sec. 6.4 Corrections  [21/SP PHY-314-01]
+URL:https://wabash.instructure.com/calendar?include_contexts=course_3148216
+ &month=04&year=2021#assignment_32077567
+X-ALT-DESC;FMTTYPE=text/html:<p><span>The link below has the solutions for 
+ Homework Assignment 26 Section 6.4.&nbsp\; &nbsp\;Use these to correct you
+ r homework per the syllabus and prior physics courses.&nbsp\; Solutions we
+ re made available at 1:10 PM on Monday\, April 12.&nbsp\; Corrected homewo
+ rk is due for upload at <strong>9:00 AM Wednesday\, April 14.</strong></sp
+ an></p>\n<p><a class="instructure_file_link instructure_scribd_file" title
+ ="HW 10 Solutions.pdf" href="https://wabash.instructure.com/courses/314821
+ 6/files/193827249/download?wrap=1" data-api-endpoint="https://wabash.instr
+ ucture.com/api/v1/courses/3148216/files/193827249" data-api-returntype="Fi
+ le"></a></p>\n<p><a title="PHY 314 Spring 2021 HW 26 Solutions.pdf" href="
+ https://app.box.com/embed_widget/s/zbius0z1em3gdaj01s4iip9bnbb4rewx?view=l
+ ist&amp\;sort=name&amp\;direction=ASC&amp\;theme=dark" target="_blank">PHY
+  314 Spring 2021 HW 26 Solutions.pdf</a>&nbsp\;</p>\n<p>&nbsp\;</p>\n<p>&n
+ bsp\;</p>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210412T201200Z
+UID:event-assignment-32078905
+DTSTART:20210414T150000Z
+DTEND:20210414T150000Z
+CLASS:PUBLIC
+DESCRIPTION:https://rellek.net/book/s_graphalgorithms_exercises.html\n\nCha
+ pter 12.1: Exercises 3\,4\,7
+SEQUENCE:0
+SUMMARY:Daily Assignment: Spanning Trees [21/SP MAT-219-01\, MAT-219-01D]
+URL:https://wabash.instructure.com/calendar?include_contexts=course_3148162
+ &month=04&year=2021#assignment_32078905
+X-ALT-DESC;FMTTYPE=text/html:<p><a href="https://rellek.net/book/s_graphalg
+ orithms_exercises.html" target="_blank">https://rellek.net/book/s_graphalg
+ orithms_exercises.html</a></p>\n<p>Chapter 12.1: Exercises 3\,4\,7</p>
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20210124T213200Z
@@ -4327,7 +4361,7 @@ X-ALT-DESC;FMTTYPE=text/html:<a href="https://wabash.instructure.com/">Cour
  se</a>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20210404T221400Z
+DTSTAMP:20210412T191800Z
 UID:event-assignment-31185598
 DTSTART;VALUE=DATE:20210415T000000
 DTEND;VALUE=DATE:20210415T000000
@@ -4367,40 +4401,38 @@ X-ALT-DESC;FMTTYPE=text/html:<p><a class="instructure_file_link instructure
  -api-returntype="File">HW31Solutions.pdf</a></p>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20210409T182900Z
-UID:event-assignment-32059780
+DTSTAMP:20210412T210300Z
+UID:event-assignment-30555002
 DTSTART:20210416T120000Z
 DTEND:20210416T120000Z
 CLASS:PUBLIC
-DESCRIPTION:Please carefully read and upload a brief outline of Sections 7.
- 2.3 - 7.2.4  Inductance and Energy in Magnetic Fields in Griffiths' Intro
- duction to Electrodynamics text prior to 8:00 AM on Friday\, April 16. \n
- \n \n\nWill is responsible for leading the discussion of the material on 
- Inductance (Section 7.2.3) and Dr. Ross will be in change of the material 
- on Energy (7.2.4).  While they have primary responsibility for the class\
- , everyone needs to come prepared to fully participate.  Discussion leade
- rs will be given 30 points for their class presentations plus the standard
-  10 points for their outline\, while everyone else will be awarded the usu
- al 10 points for uploading an outine of the day's reading assignment.\n\n
-  \n\n 
+DESCRIPTION:Please carefully read and upload a brief outline of Section 7.2
+ .1 - 7.2.2  Electromagnetic Induction in Griffiths' Introduction to Elect
+ rodynamics text prior to 8:00 AM on Friday\, April 16. \n\n \n\nCaleb an
+ d Joey will be leading the discussion of the material on Friday.  While t
+ hey have primary responsibility for the class\, everyone needs to come pre
+ pared to fully participate.  Discussion leaders will be given 30 points f
+ or their class presentations plus the standard 10 points for their outline
+  (upload copies of any materials you will be using)\, while everyone else 
+ will be awarded the usual 10 points for uploading an outine of the day's r
+ eading assignment.\n\n \n\n 
 SEQUENCE:0
-SUMMARY:Outline Section 7.2.3 - 7.2.4 - Presentation by Will and Dr. Ross [
- 21/SP PHY-314-01]
+SUMMARY:Outline Section 7.2.1 - 7.2.2 - Presentation by Caleb and Joey [21/
+ SP PHY-314-01]
 URL:https://wabash.instructure.com/calendar?include_contexts=course_3148216
- &month=04&year=2021#assignment_32059780
+ &month=04&year=2021#assignment_30555002
 X-ALT-DESC;FMTTYPE=text/html:<p>Please carefully read and upload a brief ou
- tline of <strong>Sections 7.2.3 - 7.2.4&nbsp\; Inductance and Energy in Ma
- gnetic Fields </strong>in Griffiths' <em>Introduction to Electrodynamics</
- em> text prior to <strong>8:00 AM on Friday\, April 16</strong>.&nbsp\;</p
- >\n<p>&nbsp\;</p>\n<p><strong>Will </strong>is responsible for leading the
-  discussion of the material on Inductance (Section 7.2.3) and Dr. Ross wil
- l be in change of the material on Energy (7.2.4).&nbsp\; While they have p
- rimary responsibility for the class\, <em>everyone</em> needs to come prep
- ared to fully participate.&nbsp\; Discussion leaders will be given 30 poin
- ts for their class presentations plus the standard 10 points for their out
- line\, while everyone else will be awarded the usual 10 points for uploadi
- ng an outine of the day's reading assignment.</p>\n<p>&nbsp\;</p>\n<p>&nbs
- p\;</p>
+ tline of <strong>Section 7.2.1 - 7.2.2&nbsp\; Electromagnetic Induction </
+ strong>in Griffiths' <em>Introduction to Electrodynamics</em> text prior t
+ o <strong>8:00 AM on Friday\, April 16</strong>.&nbsp\;</p>\n<p>&nbsp\;</p
+ >\n<p><strong>Caleb and Joey</strong> will be leading the discussion of th
+ e material on Friday.&nbsp\; While they have primary responsibility for th
+ e class\, <em>everyone</em> needs to come prepared to fully participate.&n
+ bsp\; Discussion leaders will be given 30 points for their class presentat
+ ions plus the standard 10 points for their outline (upload copies of any m
+ aterials you will be using)\, while everyone else will be awarded the usua
+ l 10 points for uploading an outine of the day's reading assignment.</p>\n
+ <p>&nbsp\;</p>\n<p>&nbsp\;</p>
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20210121T151800Z
@@ -4447,6 +4479,50 @@ URL:https://wabash.instructure.com/calendar?include_contexts=course_3148208
  &month=04&year=2021#assignment_30919138
 X-ALT-DESC;FMTTYPE=text/html:<p><span>This warmup covers the reading&nbsp\;
  assignment Sections 17.1-17.4.</span></p>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210412T143000Z
+UID:event-assignment-30554964
+DTSTART:20210416T130000Z
+DTEND:20210416T130000Z
+CLASS:PUBLIC
+DESCRIPTION:Print out a copy of Homework 27 over Section 7.1\, which contai
+ ns 3 problems worth 30 pts.\n\n[] (https://wabash.instructure.com/courses/
+ 3148216/files/193827238/download?wrap=1)\n\n[] (https://wabash.instructure
+ .com/courses/3148216/files/193827269/download?wrap=1)\n\nUpload a .pdf of 
+ your solutions by 9:00 AM on Friday\, April 16. \n\nSolutions will be po
+ sted at 1:00 PM on Friday\, April 16.\n\nUploads of your corrected work ar
+ e due to Canvas by 9:00 AM on Monday\, April 19. \n\n[HW_27.pdf] (https:/
+ /app.box.com/embed_widget/s/gbnwah5q6z18s0qrdbvkfv6jw06liaxp?view=list&sor
+ t=name&direction=ASC&theme=dark) \n\n[] (https://wabash.instructure.com/c
+ ourses/3148216/files/193827272/download?wrap=1)
+SEQUENCE:0
+SUMMARY:HW Assignment 27 Section 7.1    [21/SP PHY-314-01]
+URL:https://wabash.instructure.com/calendar?include_contexts=course_3148216
+ &month=04&year=2021#assignment_30554964
+X-ALT-DESC;FMTTYPE=text/html:<p>Print out a copy of Homework 27 <span style
+ ="font-size: 1rem\;">over Section 7.1\, which contains <strong>3 problems 
+ worth 30 pts</strong>.</span></p>\n<p><a class="instructure_file_link inst
+ ructure_scribd_file" title="HW_05.pdf" href="https://wabash.instructure.co
+ m/courses/3148216/files/193827238/download?wrap=1" data-api-endpoint="http
+ s://wabash.instructure.com/api/v1/courses/3148216/files/193827238" data-ap
+ i-returntype="File"></a></p>\n<p><a class="instructure_file_link instructu
+ re_scribd_file" title="HW_17.pdf" href="https://wabash.instructure.com/cou
+ rses/3148216/files/193827269/download?wrap=1" data-api-endpoint="https://w
+ abash.instructure.com/api/v1/courses/3148216/files/193827269" data-api-ret
+ urntype="File"></a></p>\n<p>Upload a .pdf of your solutions by<span>&nbsp\
+ ;</span><strong>9:00 AM on Friday\, April 16</strong>.&nbsp\;<span style="
+ color: #ff0000\;"> </span></p>\n<p>Solutions will be posted at<span><stron
+ g> 1:00 PM</strong> on <strong>Friday\, April 16.</strong></span></p>\n<p>
+ <span>Uploads of your corrected work are due to Canvas by 9:00 AM on <stro
+ ng>Monday\, April 19</strong>.&nbsp\;</span></p>\n<p><a title="HW_27.pdf" 
+ href="https://app.box.com/embed_widget/s/gbnwah5q6z18s0qrdbvkfv6jw06liaxp?
+ view=list&amp\;sort=name&amp\;direction=ASC&amp\;theme=dark" target="_blan
+ k">HW_27.pdf</a>&nbsp\;</p>\n<p><a class="instructure_file_link instructur
+ e_scribd_file" title="HW_19.pdf" href="https://wabash.instructure.com/cour
+ ses/3148216/files/193827272/download?wrap=1" data-api-endpoint="https://wa
+ bash.instructure.com/api/v1/courses/3148216/files/193827272" data-api-retu
+ rntype="File"></a></p>
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20210124T213200Z
@@ -4546,6 +4622,44 @@ X-ALT-DESC;FMTTYPE=text/html:<p><a class="instructure_file_link instructure
  .com/courses/3148208/files/195519137/download?wrap=1" data-api-endpoint="h
  ttps://wabash.instructure.com/api/v1/courses/3148208/files/195519137" data
  -api-returntype="File">HW32Solutions.pdf</a></p>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210412T210500Z
+UID:event-assignment-32059780
+DTSTART:20210419T120000Z
+DTEND:20210419T120000Z
+CLASS:PUBLIC
+DESCRIPTION:Please carefully read and upload a brief outline of Sections 7.
+ 2.3 - 7.2.4  Inductance and Energy in Magnetic Fields in Griffiths' Intro
+ duction to Electrodynamics text prior to 8:00 AM on Monday\, April 19. \n
+ \n \n\nWill is responsible for leading the discussion of the material on 
+ Inductance (Section 7.2.3) and Dr. Ross will be in change of the material 
+ on Energy (7.2.4).  While they have primary responsibility for the class\
+ , everyone needs to come prepared to fully participate.  Discussion leade
+ rs will be given 30 points for their class presentations plus the standard
+  10 points for their outline (Will\, upload any materials you will use for
+  your presentation along with your notes)\, while everyone else will be aw
+ arded the usual 10 points for uploading an outine of the day's reading ass
+ ignment.\n\n \n\n 
+SEQUENCE:0
+SUMMARY:Outline Section 7.2.3 - 7.2.4 - Presentation by Will and Dr. Ross [
+ 21/SP PHY-314-01]
+URL:https://wabash.instructure.com/calendar?include_contexts=course_3148216
+ &month=04&year=2021#assignment_32059780
+X-ALT-DESC;FMTTYPE=text/html:<p>Please carefully read and upload a brief ou
+ tline of <strong>Sections 7.2.3 - 7.2.4&nbsp\; Inductance and Energy in Ma
+ gnetic Fields </strong>in Griffiths' <em>Introduction to Electrodynamics</
+ em> text prior to <strong>8:00 AM on Monday\, April 19</strong>.&nbsp\;</p
+ >\n<p>&nbsp\;</p>\n<p>Will is responsible for leading the discussion of th
+ e material on Inductance (Section 7.2.3) and Dr. Ross will be in change of
+  the material on Energy (7.2.4).&nbsp\; While they have primary responsibi
+ lity for the class\, <em>everyone</em> needs to come prepared to fully par
+ ticipate.&nbsp\; Discussion leaders will be given 30 points for their clas
+ s presentations plus the standard 10 points for their outline (Will\, uplo
+ ad any materials you will use for your presentation along with your notes)
+ \, while everyone else will be awarded the usual 10 points for uploading a
+ n outine of the day's reading assignment.</p>\n<p>&nbsp\;</p>\n<p>&nbsp\;<
+ /p>
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20210121T151800Z
@@ -4864,17 +4978,53 @@ X-ALT-DESC;FMTTYPE=text/html:<p><a href="https://wabash.zoom.us/j/990843142
  n Zoom Meeting:990 8431 4214</a></p>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20210404T221500Z
+DTSTAMP:20210413T001100Z
 UID:event-assignment-31185582
 DTSTART:20210422T155000Z
 DTEND:20210422T155000Z
 CLASS:PUBLIC
-DESCRIPTION:
+DESCRIPTION:Exam II\n\nStudy Guide\n\n \n\nKnow…\n\n* Diodes\n\n* Rectif
+ ier\n\n* Signal\n\n* Ge\n\n* LED\n\n* Op Amps\n\n* Golden rules\n\n* Inver
+ ting amplifier\n\n* Non-inverting amplifier\n\n* Active filters (High-pass
+  and low-pass)\n\n* Follower\n\n* Difference amp\n\n* Comparator with and 
+ without Schmidt triggering\n\n* Distortions\n\n* Clipping\n\n* Slewrate\n\
+ n* Transistors\n\n* BJT\n\n* Rules\n\n* Base draws little current hfe~100\
+ n\n* Ic ~= Ie\n\n* Base-emitter junction is forward biased\n\n* Collector-
+ base junction is reverse biased\n\n* Know PNP and NPN\n\n* Darlington pair
+ \n\n* JFET and FET\n\n* Know source\, drain\, and gate\n\n* Gate voltage c
+ ontrols source to drain current\n\n* Gate draws ~no current\n\n* Circuits\
+ n\n* Common emitter amp\n\n* Common base amp\n\n* Schmidt trigger\n\n* Pow
+ er\n\n* Darlington\n\n* Crossover configuration\n\n* Digital\n\n* Basic lo
+ gic gates\n\n* AND\, OR\, XOR\, NOR\, NOT\, NAND…\n\n* TTL logic levels\
+ n\n* Sensors\n\n* Photo diode\n\n* Phototransistor\n\n* RTD\n\n* Thermisto
+ r\n\n 
 SEQUENCE:0
 SUMMARY:Exam 2 [21/SP PHY-220-01]
 URL:https://wabash.instructure.com/calendar?include_contexts=course_3148214
  &month=04&year=2021#assignment_31185582
-X-ALT-DESC;FMTTYPE=text/html:
+X-ALT-DESC;FMTTYPE=text/html:<p><strong>Exam II</strong></p>\n<p><strong>St
+ udy Guide</strong></p>\n<p>&nbsp\;</p>\n<p>Know…</p>\n<ol>\n<li>Diodes\n
+ <ol>\n<li>Rectifier</li>\n<li>Signal</li>\n<li>Ge</li>\n<li>LED</li>\n</ol
+ >\n</li>\n<li>Op Amps\n<ol>\n<li>Golden rules</li>\n<li>Inverting amplifie
+ r</li>\n<li>Non-inverting amplifier</li>\n<li>Active filters (High-pass an
+ d low-pass)</li>\n<li>Follower</li>\n<li>Difference amp</li>\n<li>Comparat
+ or with and without Schmidt triggering</li>\n<li>Distortions\n<ol>\n<li>Cl
+ ipping</li>\n<li>Slewrate</li>\n</ol>\n</li>\n<li>Transistors\n<ol>\n<li>B
+ JT\n<ol>\n<li>Rules\n<ol>\n<li>Base draws little current h<sub>fe</sub>~10
+ 0\n<ol>\n<li>Ic ~= Ie</li>\n</ol>\n</li>\n<li>Base-emitter junction is for
+ ward biased</li>\n<li>Collector-base junction is reverse biased</li>\n</ol
+ >\n</li>\n<li>Know PNP and NPN</li>\n</ol>\n</li>\n</ol>\n</li>\n</ol>\n</
+ li>\n</ol>\n<ul>\n<li>Darlington pair</li>\n</ul>\n<ol>\n<li>JFET and FET\
+ n<ol>\n<li>Know source\, drain\, and gate</li>\n<li>Gate voltage controls 
+ source to drain current</li>\n</ol>\n</li>\n</ol>\n<ul>\n<li>Gate draws ~n
+ o current</li>\n</ul>\n<ol>\n<li>Circuits\n<ol>\n<li>Common emitter amp</l
+ i>\n<li>Common base amp</li>\n</ol>\n</li>\n</ol>\n<ul>\n<li>Schmidt trigg
+ er</li>\n</ul>\n<ol>\n<li>Power\n<ol>\n<li>Darlington</li>\n<li>Crossover 
+ configuration</li>\n</ol>\n</li>\n<li>Digital\n<ol>\n<li>Basic logic gates
+ \n<ol>\n<li>AND\, OR\, XOR\, NOR\, NOT\, NAND…</li>\n</ol>\n</li>\n<li>T
+ TL logic levels</li>\n</ol>\n</li>\n<li>Sensors\n<ol>\n<li>Photo diode</li
+ >\n<li>Phototransistor</li>\n<li>RTD</li>\n<li>Thermistor</li>\n</ol>\n</l
+ i>\n</ol>\n<p>&nbsp\;</p>
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20210204T233800Z

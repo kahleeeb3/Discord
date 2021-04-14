@@ -53,10 +53,6 @@ class Display(commands.Cog):
     async def button(self,button):
         if button.is_active:
             """
-            #un-comment this for todo
-            list_of_lines = lists.read('todo')
-            lists.cycle_display(list_of_lines)
-            """
             # Python Program to Get IP Address 
             import socket
             s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -64,7 +60,9 @@ class Display(commands.Cog):
             IPAddr= s.getsockname()[0]
             s.close()
             lists.cycle_display([IPAddr])
-        
+            """
+            import subprocess
+            subprocess.Popen("sudo python3 /home/pi/Desktop/Discord/modules/lcd/cycle.py", shell=True, stdin=None, stdout=None, stderr=None, close_fds=True)
 
 
 def setup(client):

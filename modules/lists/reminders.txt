@@ -8,7 +8,7 @@ COVID test <@!487323172492935189>
 
 Friday
 12:00 PM
-COVID test <@!487323172492935189>  
+COVID test <@!487323172492935189> 
 
 Monday, Tuesday, Wednesday, Thursday, Friday
 07:15 PM
@@ -16,12 +16,8 @@ Don't forget to Clock-In <@!487323172492935189>
 
 Monday, Tuesday, Wednesday, Thursday, Friday
 11:15 PM
-Don't forget to Clock-Out <@!487323172492935189>  
+Don't forget to Clock-Out <@!487323172492935189> 
 
-Tuesday
+Thursday
 08:00 AM
-It is <@!143127270821855242> turn to do the quiz
-
-Friday
-02:20 PM
-<@!487323172492935189> your covid vaccine is at 4:20
+It is <@!487323172492935189> turn to do the quiz
