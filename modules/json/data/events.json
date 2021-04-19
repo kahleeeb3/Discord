@@ -1,1 +1,11 @@
-{"date": {"04/18/21": {"1": {"title": "Test", "description": "This is a test of the new event feature. I should be asleep but I hate myself", "time": "12:45 AM"}}}}
+{
+    "date": {
+        "04/22/21": {
+            "1": {
+                "title": "Numerical Quiz",
+                "description": "it is <@!487323172492935189> turn to do the quiz",
+                "time": "08:00 AM"
+            }
+        }
+    }
+}
