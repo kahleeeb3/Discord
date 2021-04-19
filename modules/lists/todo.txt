@@ -1,8 +1,6 @@
-E&M
-- HW18C
 Comb
 - Challenge Problems:
-- 2, 4C, 5, 6C, 7C, 8, 9
+- 2, 8, 9
 Electronics:
-- HW 5,10-14
-- HW 6-9C
+- HW 5,10-12
+- HW Correction

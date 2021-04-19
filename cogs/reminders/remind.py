@@ -8,6 +8,24 @@ from modules import lists, time
 from modules.json import json
 
 
+async def send_count(ctx):
+    # Step 1: load in the data
+    data = json.load("events")
+
+    # Step 2: Send the data
+    try:
+        data["date"]
+    except:
+        await ctx.channel.send('There are no events')
+        return False
+    embed = discord.Embed(title=f'Events:',color=discord.Color.red())
+    for date in data["date"]:
+        for event in data["date"][date]:
+            title = data["date"][date][event]["title"]
+            description = data["date"][date][event]["description"]
+            embed.add_field(name=f'{title} - {date}',value = f'{description}', inline=False)
+    await ctx.send(embed=embed)
+
 class Reminder(commands.Cog):
     """Show the Reminders"""
 
@@ -78,6 +96,8 @@ class Reminder(commands.Cog):
 
         if not action:
             pass
+        elif action[0] == 'list':
+            await send_count(ctx)
         elif action[0] == 'create':
             data = json.load('events')
             ## GET INFORMATION ABOUT THE EVENT
