@@ -9,4 +9,4 @@ Paste in:
 ```
 Save and exit
 ### Note:
-The "launcher.sh" file will run the bot from the "selfboot.py" file in the main directory. Any Error in running thsi code will be placed in the "log.txt" file in this directory.
+The "launcher.sh" file will run the bot from the "selfboot.py" file in the main directory. Any Error in running this code will be placed in the "log.txt" file in this directory.
