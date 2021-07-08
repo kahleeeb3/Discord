@@ -64,15 +64,15 @@ client.run(open('/home/pi/Desktop/token.txt', "r").read())
 ```
 
 ## Directories
-# main.py:
+### main.py:
 this is where the main code is run manually for the purpose of quick changes
-# selfboot.py:
+### selfboot.py:
 this code is set to run on boot
-# boot:
+### boot:
 This folder contains the necissary files and instructions for booting the bot from startup on linux
-# cogs:
+### cogs:
 This folder contains a breakdown of each command in a sperate folder
-# modules:
+### modules:
 This folder is where commonly used lines of code are placed for importation
-# Recycling_Bin:
+### Recycling_Bin:
 This folder is intended for files that will not be run and are just being saved for future reference
