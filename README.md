@@ -1,25 +1,34 @@
 # Emma Watson
 This is a repository for my discord bot. The original GitHub Repo was created 2020-10-25 20:49:50. Amen.
 
-For this bot to work, the repository should be placed in the following directory:
+To run the Bot, use:
 
 ```
-cd /home/pi/Desktop/
+cd /home/pi/Desktop/Discord
+python3 main.py
 ```
+To see how to run the bot automatically on startup, visit the "boot" folder.
 ## Setup (Linux Terminal on Raspberry Pi OS):
+### Clone Repository
 ```
 cd /home/pi/Desktop
 git clone https://github.com/kahleeeb3/Discord.git
-python3 -m pip install -U discord.py
+```
+### Install Imports
+```
+python3 -m pip install -U discord.py # to run the main code
 pip3 install pytz
 pip3 install icalendar
+```
+### Paste Your Bot Token
+Find your bot token from https://discord.com/developers/applications
+```
+cd /home/pi/Desktop
 touch token.txt
 sudo nano token.txt
 <paste the token in here and then save>
-cd Discord
-python3 main.py
 ```
-## Setup LCD
+### Setup LCD
 https://www.youtube.com/watch?v=3XLjVChVgec&ab_channel=MakerTutor
 ```
 cd /home/pi/Desktop
