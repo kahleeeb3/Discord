@@ -1,9 +1,12 @@
-In command line
-
-(1) Type:
+# Self Boot
+To have the discord bot automatically start when the Raspberry Pi boots:
+```
 sudo crontab -e
-
-(2) Add the line:
+```
+Paste in:
+```
 @reboot sh /home/pi/Desktop/Discord/boot/launcher.sh > /home/pi/Desktop/Discord/boot/log.txt 2>&1
-
-(3) Save and exit
+```
+Save and exit
+### Note:
+This will have the bot boot from the "selfboot.py" file in the main directory
