@@ -19,6 +19,7 @@ git clone https://github.com/kahleeeb3/Discord.git
 python3 -m pip install -U discord.py # (to run the main code)
 pip3 install pytz
 pip3 install icalendar
+pip3 install quantumrandom
 ```
 ### Paste Your Bot Token
 Find your bot token from https://discord.com/developers/applications
