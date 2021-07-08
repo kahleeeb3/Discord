@@ -4,11 +4,11 @@ This is a repository for my discord bot. The original GitHub Repo was created 20
 For this bot to work, the repository should be placed in the following directory:
 
 ```
-cd /home/pi/desktop/
+cd /home/pi/Desktop/
 ```
 ## Setup (Linux Terminal on Raspberry Pi OS):
 ```
-cd /home/pi/desktop
+cd /home/pi/Desktop
 git clone https://github.com/kahleeeb3/Discord.git
 python3 -m pip install -U discord.py
 pip3 install pytz
@@ -18,6 +18,14 @@ sudo nano token.txt
 <paste the token in here and then save>
 cd Discord
 python3 main.py
+```
+## Setup LCD
+https://www.youtube.com/watch?v=3XLjVChVgec&ab_channel=MakerTutor
+```
+cd /home/pi/Desktop
+git clone https://github.com/the-raspberry-pi-guy/lcd.git
+cd lcd
+sudo sh install.sh
 ```
 
 ## main.py:
