@@ -3,8 +3,6 @@ This is a repository for my discord bot. The original GitHub Repo was created 20
 
 For this bot to work, the repository should be placed in the following directory:
 
-Test of stuff
-
 ```
 cd /home/pi/Desktop/
 ```
