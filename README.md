@@ -16,7 +16,7 @@ git clone https://github.com/kahleeeb3/Discord.git
 ```
 ### Install Imports
 ```
-python3 -m pip install -U discord.py # to run the main code
+python3 -m pip install -U discord.py //to run the main code
 pip3 install pytz
 pip3 install icalendar
 ```
