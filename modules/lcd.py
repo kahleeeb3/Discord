@@ -17,6 +17,3 @@ async def display(ctx,message):
             display.lcd_display_string(message, 2)
         if len(message) > 32:
             await ctx.channel.send(f'32 Character Max ({len(message)}):\nSent: {message[0:32]}')
-
-def test():
-    print('ran this code')

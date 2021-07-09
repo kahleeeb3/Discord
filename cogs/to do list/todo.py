@@ -28,7 +28,7 @@ class ToDo(commands.Cog):
         if action == 'edit':
             #send the current list
             content = lists.to_string('todo')
-            menu = await ctx.channel.send(f'{content}**Input text to replace:**')
+            menu = await ctx.channel.send(f'{content}\n**Input text to replace:**')
             #ask for input on the new list
             new_list = await self.client.wait_for('message')
             #make changes to text file
